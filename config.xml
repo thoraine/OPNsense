@@ -139,7 +139,7 @@
     <dns8gw>none</dns8gw>
     <prefer_ipv4>1</prefer_ipv4>
     <backup>
-      <git version="1.0.0" persisted_at="1757606837.88">
+      <git version="1.0.0" persisted_at="1757606895.60">
         <enabled>1</enabled>
         <url>ssh://github.com/thoraine/OPNsense.git</url>
         <branch>main</branch>
@@ -148,7 +148,7 @@ QyNTUxOQAAACBmh/fupRbuRPf4oIKTf9rfBS/tfjuXuII5Bs999kr81QAAAJhVkN1ZVZDd&#13;
 WQAAAAtzc2gtZWQyNTUxOQAAACBmh/fupRbuRPf4oIKTf9rfBS/tfjuXuII5Bs999kr81Q&#13;
 AAAECTSymtMlaNXFgwHDISdfGht/qfEgPLyxD4QMSqfkGE/WaH9+6lFu5E9/iggpN/2t8F&#13;
 L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==</privkey>
-        <user>thoraine</user>
+        <user>thoraine@gmail.com</user>
         <password>ReappointHandcraftMargin1</password>
       </git>
     </backup>
@@ -761,7 +761,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==</privkey>
   <revision>
     <username>root@192.168.1.133</username>
     <description>/diag_backup.php made changes</description>
-    <time>1757606837.88</time>
+    <time>1757606895.60</time>
   </revision>
   <OPNsense>
     <wireguard>
