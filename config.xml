@@ -155,6 +155,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <password/>
       </git>
     </backup>
+    <backupcount>10</backupcount>
   </system>
   <interfaces>
     <wan>
@@ -793,8 +794,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1757679197.52</time>
+    <description>Changed backup revision count</description>
+    <time>1757679302.48</time>
   </revision>
   <OPNsense>
     <wireguard>
