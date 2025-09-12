@@ -239,7 +239,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <spoofmac/>
     </opt3>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1757679020.73">
+  <dnsmasq version="1.0.8" persisted_at="1757679193.13">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -286,6 +286,21 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <ignore>0</ignore>
       <set_tag/>
       <descr>AdGuard</descr>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="8852b8c7-43b8-42f6-a5b2-f33a7ee3a215">
+      <host>unifi</host>
+      <domain>chewynetwork.com</domain>
+      <local>1</local>
+      <ip>192.168.1.5</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr/>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr>Unifi Controller</descr>
       <comments/>
       <aliases/>
     </hosts>
@@ -778,8 +793,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1757679020.73</time>
+    <description>/api/dnsmasq/settings/add_host/ made changes</description>
+    <time>1757679193.13</time>
   </revision>
   <OPNsense>
     <wireguard>
