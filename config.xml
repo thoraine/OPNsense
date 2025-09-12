@@ -501,7 +501,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <time>1757582133.39</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <disabled>1</disabled>
     </rule>
   </nat>
   <filter>
@@ -750,7 +749,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <time>1757582133.39</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <disabled>1</disabled>
     </rule>
   </filter>
   <rrd>
@@ -762,7 +760,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@10.10.10.4</username>
     <description>Firewall: NAT: Port Forward, toggle NAT rule</description>
-    <time>1757642357.03</time>
+    <time>1757642358.26</time>
   </revision>
   <OPNsense>
     <wireguard>
