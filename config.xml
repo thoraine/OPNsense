@@ -239,7 +239,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <spoofmac/>
     </opt3>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1757679193.13">
+  <dnsmasq version="1.0.8" persisted_at="1757679197.52">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -793,8 +793,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/dnsmasq/settings/add_host/ made changes</description>
-    <time>1757679193.13</time>
+    <description>/api/dnsmasq/settings/set made changes</description>
+    <time>1757679197.52</time>
   </revision>
   <OPNsense>
     <wireguard>
