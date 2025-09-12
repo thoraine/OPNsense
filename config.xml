@@ -763,8 +763,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>Firewall: NAT: Port Forward, toggle NAT rule</description>
-    <time>1757645692.52</time>
+    <description>/firewall_nat.php made changes</description>
+    <time>1757645693.52</time>
   </revision>
   <OPNsense>
     <wireguard>
