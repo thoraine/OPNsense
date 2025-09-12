@@ -239,7 +239,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <spoofmac/>
     </opt3>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1757604926.10">
+  <dnsmasq version="1.0.8" persisted_at="1757679018.77">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -274,6 +274,21 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <nosync>0</nosync>
     </dhcp>
     <no_ident>1</no_ident>
+    <hosts uuid="aa95b53f-862e-493e-95cd-9e74f8aafdb9">
+      <host>dns</host>
+      <domain>chewynetwork.com</domain>
+      <local>1</local>
+      <ip>192.168.1.4</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr/>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr>AdGuard</descr>
+      <comments/>
+      <aliases/>
+    </hosts>
     <dhcp_ranges uuid="a3a8bb1e-32e0-47a8-aae5-88bde3f1da4b">
       <interface>lan</interface>
       <set_tag/>
@@ -762,9 +777,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@10.10.10.4</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1757645693.52</time>
+    <username>root@192.168.1.133</username>
+    <description>/api/dnsmasq/settings/add_host/ made changes</description>
+    <time>1757679018.77</time>
   </revision>
   <OPNsense>
     <wireguard>
