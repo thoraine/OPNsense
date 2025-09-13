@@ -238,7 +238,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <spoofmac/>
     </opt3>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1757744710.92">
+  <dnsmasq version="1.0.8" persisted_at="1757745637.58">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -343,6 +343,17 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <ra_router_lifetime/>
       <description>IoT</description>
     </dhcp_ranges>
+    <dhcp_options uuid="5c768ad0-d2ba-441e-b009-0bf9e4c986c7">
+      <type>set</type>
+      <option>6</option>
+      <option6/>
+      <interface/>
+      <tag/>
+      <set_tag/>
+      <value>192.168.1.4</value>
+      <force>1</force>
+      <description>DNS</description>
+    </dhcp_options>
   </dnsmasq>
   <snmpd>
     <syslocation/>
@@ -792,8 +803,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1757744985.72</time>
+    <description>/api/dnsmasq/settings/add_option/ made changes</description>
+    <time>1757745637.58</time>
   </revision>
   <OPNsense>
     <wireguard>
