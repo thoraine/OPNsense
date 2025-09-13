@@ -793,8 +793,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/ids/settings/toggle_ruleset/abuse.ch.urlhaus.rules/1 made changes</description>
-    <time>1757730385.23</time>
+    <description>/api/ids/settings/set_ruleset/abuse.ch.feodotracker.rules made changes</description>
+    <time>1757730424.26</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1126,7 +1126,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <activeTimeout>1800</activeTimeout>
       <inactiveTimeout>15</inactiveTimeout>
     </Netflow>
-    <IDS version="1.1.0" persisted_at="1757730385.23">
+    <IDS version="1.1.0" persisted_at="1757730424.26">
       <rules>
         <rule uuid="ff1bf4b4-4800-4e6f-95e8-04d5ea8797d2">
           <sid>2000536</sid>
@@ -1229,6 +1229,10 @@ ae0482c1428a7be801fa0e4ba7c8569c
         </file>
         <file uuid="54b57dd4-b46c-4b2f-85dd-99bc4ec0487c">
           <filename>abuse.ch.urlhaus.rules</filename>
+          <enabled>1</enabled>
+        </file>
+        <file uuid="5ce09618-21c0-4775-982b-39d7598c82c1">
+          <filename>abuse.ch.feodotracker.rules</filename>
           <enabled>1</enabled>
         </file>
       </files>
