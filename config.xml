@@ -238,7 +238,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <spoofmac/>
     </opt3>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1757745919.56">
+  <dnsmasq version="1.0.8" persisted_at="1757745924.86">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -348,6 +348,17 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <option>6</option>
       <option6/>
       <interface>lan</interface>
+      <tag/>
+      <set_tag/>
+      <value>192.168.1.4</value>
+      <force>1</force>
+      <description>DNS</description>
+    </dhcp_options>
+    <dhcp_options uuid="d7b7d3db-6d3d-43c3-8b82-90536134c1a0">
+      <type>set</type>
+      <option>6</option>
+      <option6/>
+      <interface>opt2</interface>
       <tag/>
       <set_tag/>
       <value>192.168.1.4</value>
@@ -803,8 +814,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/dnsmasq/settings/set_option/5c768ad0-d2ba-441e-b009-0bf9e4c986c7 made changes</description>
-    <time>1757745919.56</time>
+    <description>/api/dnsmasq/settings/add_option/ made changes</description>
+    <time>1757745924.86</time>
   </revision>
   <OPNsense>
     <wireguard>
