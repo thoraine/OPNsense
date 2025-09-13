@@ -572,6 +572,33 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="6cec6271-f966-4b96-a744-c71ce5a48d6b">
+      <type>pass</type>
+      <interface>wan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Allow WireGuard in</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>udp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>wanip</network>
+        <port>11111</port>
+      </destination>
+      <updated>
+        <username>root@192.168.1.133</username>
+        <time>1757746281.30</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.1.133</username>
+        <time>1757746281.30</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="5c38ee1d-1605-498b-9578-b93fe2ac2e24">
       <type>pass</type>
       <interface>wan</interface>
@@ -645,6 +672,29 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <username>root@10.10.10.4</username>
         <time>1757582067.46</time>
         <description>/firewall_rules_edit.php made changes</description>
+      </created>
+      <disabled>1</disabled>
+    </rule>
+    <rule uuid="87443b17-fe65-4cd0-b756-024bbc53955e">
+      <type>pass</type>
+      <associated-rule-id>nat_68c293355ef474.79477812</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>192.168.1.6</address>
+        <port>80</port>
+      </destination>
+      <descr>V2Ray Forward</descr>
+      <category/>
+      <created>
+        <username>root@10.10.10.4</username>
+        <time>1757582133.39</time>
+        <description>/firewall_nat_edit.php made changes</description>
       </created>
       <disabled>1</disabled>
     </rule>
@@ -770,29 +820,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
-      <type>pass</type>
-      <associated-rule-id>nat_68c293355ef474.79477812</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>192.168.1.6</address>
-        <port>80</port>
-      </destination>
-      <descr>V2Ray Forward</descr>
-      <category/>
-      <created>
-        <username>root@10.10.10.4</username>
-        <time>1757582133.39</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-      <disabled>1</disabled>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -802,8 +829,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1757746257.13</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1757746281.34</time>
   </revision>
   <OPNsense>
     <wireguard>
