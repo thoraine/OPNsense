@@ -802,8 +802,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1757748330.15</time>
+    <description>/reporting_settings.php made changes</description>
+    <time>1757748358.76</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1575,7 +1575,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <general>
         <enabled>1</enabled>
         <port>53</port>
-        <stats>0</stats>
+        <stats>1</stats>
         <active_interface/>
         <dnssec>1</dnssec>
         <dns64>0</dns64>
