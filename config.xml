@@ -802,8 +802,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/ids/settings/set_rule/2000538 made changes</description>
-    <time>1757750184.93</time>
+    <description>/api/ids/settings/toggle_rule/2000538 made changes</description>
+    <time>1757750442.49</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1145,7 +1145,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <activeTimeout>1800</activeTimeout>
       <inactiveTimeout>15</inactiveTimeout>
     </Netflow>
-    <IDS version="1.1.0" persisted_at="1757750184.93">
+    <IDS version="1.1.0" persisted_at="1757750442.49">
       <rules>
         <rule uuid="ff1bf4b4-4800-4e6f-95e8-04d5ea8797d2">
           <sid>2000536</sid>
@@ -1159,7 +1159,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         </rule>
         <rule uuid="3f2ed93e-1b44-49ca-83ec-d36440cca9ab">
           <sid>2000538</sid>
-          <enabled>1</enabled>
+          <enabled>0</enabled>
           <action>alert</action>
         </rule>
         <rule uuid="4a67d3dd-e9cb-4096-b444-b87a483b9546">
