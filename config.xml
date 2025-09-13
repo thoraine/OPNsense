@@ -793,8 +793,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/ids/settings/toggle_ruleset/emerging-coinminer.rules/1 made changes</description>
-    <time>1757730587.48</time>
+    <description>/api/ids/settings/toggle_ruleset/emerging-ja3.rules/1 made changes</description>
+    <time>1757730628.14</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1126,7 +1126,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <activeTimeout>1800</activeTimeout>
       <inactiveTimeout>15</inactiveTimeout>
     </Netflow>
-    <IDS version="1.1.0" persisted_at="1757730587.48">
+    <IDS version="1.1.0" persisted_at="1757730628.14">
       <rules>
         <rule uuid="ff1bf4b4-4800-4e6f-95e8-04d5ea8797d2">
           <sid>2000536</sid>
@@ -1241,6 +1241,10 @@ ae0482c1428a7be801fa0e4ba7c8569c
         </file>
         <file uuid="7699918d-5714-4892-81a5-c596f9f32c21">
           <filename>emerging-coinminer.rules</filename>
+          <enabled>1</enabled>
+        </file>
+        <file uuid="c8359877-79c6-4a23-a537-ec0f1a11b694">
+          <filename>emerging-ja3.rules</filename>
           <enabled>1</enabled>
         </file>
       </files>
