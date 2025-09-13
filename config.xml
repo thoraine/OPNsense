@@ -802,8 +802,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/ids/settings/toggle_rule/2000538 made changes</description>
-    <time>1757750442.49</time>
+    <description>/api/ids/settings/set made changes</description>
+    <time>1757753008.83</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1145,7 +1145,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <activeTimeout>1800</activeTimeout>
       <inactiveTimeout>15</inactiveTimeout>
     </Netflow>
-    <IDS version="1.1.0" persisted_at="1757750442.49">
+    <IDS version="1.1.0" persisted_at="1757753008.83">
       <rules>
         <rule uuid="ff1bf4b4-4800-4e6f-95e8-04d5ea8797d2">
           <sid>2000536</sid>
@@ -1276,7 +1276,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <enabled>1</enabled>
         <ips>0</ips>
         <promisc>0</promisc>
-        <interfaces>opt1,wan</interfaces>
+        <interfaces>wan</interfaces>
         <homenet>192.168.0.0/16,10.0.0.0/8,172.16.0.0/12</homenet>
         <defaultPacketSize/>
         <UpdateCron>6a7c604d-ef57-48ac-bfa6-ba3cdc55f746</UpdateCron>
