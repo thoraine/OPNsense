@@ -829,12 +829,12 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1757746281.34</time>
+    <description>/api/wireguard/client/add_client_builder made changes</description>
+    <time>1757746411.53</time>
   </revision>
   <OPNsense>
     <wireguard>
-      <client version="1.0.0" persisted_at="1757554278.87">
+      <client version="1.0.0" persisted_at="1757746411.53">
         <clients>
           <client uuid="bbbd4860-3761-4997-aa52-90fe1c325858">
             <enabled>1</enabled>
@@ -866,12 +866,22 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
             <serverport/>
             <keepalive/>
           </client>
+          <client uuid="93851abb-82d7-48b0-87c2-817669b9938f">
+            <enabled>1</enabled>
+            <name>Mobile</name>
+            <pubkey>MCm5iOLcGFetSxIUfQlbND6QZoELIt60xOdRzgePQ3I=</pubkey>
+            <psk/>
+            <tunneladdress>10.100.100.2/32</tunneladdress>
+            <serveraddress/>
+            <serverport/>
+            <keepalive/>
+          </client>
         </clients>
       </client>
       <general version="0.0.1" persisted_at="1757746257.13">
         <enabled>1</enabled>
       </general>
-      <server version="1.0.0" persisted_at="1757746254.63">
+      <server version="1.0.0" persisted_at="1757746411.53">
         <servers>
           <server uuid="48097eef-aed3-4ea8-8ee5-9fbe38a96896">
             <enabled>1</enabled>
@@ -903,7 +913,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
             <disableroutes>0</disableroutes>
             <gateway/>
             <carp_depend_on/>
-            <peers/>
+            <peers>93851abb-82d7-48b0-87c2-817669b9938f</peers>
             <endpoint/>
             <peer_dns/>
           </server>
