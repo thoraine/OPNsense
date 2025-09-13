@@ -803,8 +803,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1757745639.11</time>
+    <description>/api/wireguard/server/set_server/48097eef-aed3-4ea8-8ee5-9fbe38a96896 made changes</description>
+    <time>1757745784.06</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -845,7 +845,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <general version="0.0.1" persisted_at="1757554287.51">
         <enabled>1</enabled>
       </general>
-      <server version="1.0.0" persisted_at="1757554278.86">
+      <server version="1.0.0" persisted_at="1757745784.06">
         <servers>
           <server uuid="48097eef-aed3-4ea8-8ee5-9fbe38a96896">
             <enabled>1</enabled>
@@ -855,7 +855,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
             <privkey>gIojKbv4yqhJSZDWbu23UUoh9s2TLFDALHy3mU2kCUA=</privkey>
             <port>51820</port>
             <mtu/>
-            <dns/>
+            <dns>192.168.1.4</dns>
             <tunneladdress>10.10.10.1/24</tunneladdress>
             <disableroutes>0</disableroutes>
             <gateway/>
