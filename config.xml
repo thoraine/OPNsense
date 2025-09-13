@@ -829,8 +829,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/wireguard/client/add_client_builder made changes</description>
-    <time>1757746411.53</time>
+    <description>/api/wireguard/server/set_server/76ca50b1-8e08-4144-b67a-0cd65c48c19c made changes</description>
+    <time>1757746411.55</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -881,7 +881,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <general version="0.0.1" persisted_at="1757746257.13">
         <enabled>1</enabled>
       </general>
-      <server version="1.0.0" persisted_at="1757746411.53">
+      <server version="1.0.0" persisted_at="1757746411.55">
         <servers>
           <server uuid="48097eef-aed3-4ea8-8ee5-9fbe38a96896">
             <enabled>1</enabled>
@@ -914,7 +914,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
             <gateway/>
             <carp_depend_on/>
             <peers>93851abb-82d7-48b0-87c2-817669b9938f</peers>
-            <endpoint/>
+            <endpoint>103.26.223.168:11111</endpoint>
             <peer_dns/>
           </server>
         </servers>
