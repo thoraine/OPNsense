@@ -804,7 +804,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@192.168.1.133</username>
     <description>/api/wireguard/general/set made changes</description>
-    <time>1757745785.25</time>
+    <time>1757745793.15</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -842,7 +842,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
           </client>
         </clients>
       </client>
-      <general version="0.0.1" persisted_at="1757745785.25">
+      <general version="0.0.1" persisted_at="1757745793.15">
         <enabled>1</enabled>
       </general>
       <server version="1.0.0" persisted_at="1757745784.06">
