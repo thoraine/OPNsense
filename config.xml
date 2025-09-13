@@ -572,33 +572,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="6cec6271-f966-4b96-a744-c71ce5a48d6b">
-      <type>pass</type>
-      <interface>wan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow WireGuard in</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>udp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <network>wanip</network>
-        <port>11111</port>
-      </destination>
-      <updated>
-        <username>root@192.168.1.133</username>
-        <time>1757746281.30</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.1.133</username>
-        <time>1757746281.30</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="5c38ee1d-1605-498b-9578-b93fe2ac2e24">
       <type>pass</type>
       <interface>wan</interface>
@@ -829,8 +802,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/firewall_nat_out.php made changes</description>
-    <time>1757746608.67</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1757748310.30</time>
   </revision>
   <OPNsense>
     <wireguard>
