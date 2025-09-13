@@ -793,8 +793,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/ids/settings/toggle_ruleset/emerging-worm.rules/1 made changes</description>
-    <time>1757730693.47</time>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1757744552.23</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1552,13 +1552,13 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.12" persisted_at="1757591462.98">
+    <unboundplus version="1.0.12" persisted_at="1757744552.23">
       <general>
         <enabled>0</enabled>
         <port>53</port>
         <stats>0</stats>
         <active_interface/>
-        <dnssec>0</dnssec>
+        <dnssec>1</dnssec>
         <dns64>0</dns64>
         <dns64prefix/>
         <noarecords>0</noarecords>
