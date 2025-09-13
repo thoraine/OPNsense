@@ -238,7 +238,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <spoofmac/>
     </opt3>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1757745929.96">
+  <dnsmasq version="1.0.8" persisted_at="1757745930.66">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -803,8 +803,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/dnsmasq/settings/del_option/d7b7d3db-6d3d-43c3-8b82-90536134c1a0 made changes</description>
-    <time>1757745929.96</time>
+    <description>/api/dnsmasq/settings/set made changes</description>
+    <time>1757745930.66</time>
   </revision>
   <OPNsense>
     <wireguard>
