@@ -153,7 +153,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <password/>
       </git>
     </backup>
-    <dnslocalhost>1</dnslocalhost>
   </system>
   <interfaces>
     <wan>
@@ -803,8 +802,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1757745930.66</time>
+    <description>/system_general.php made changes</description>
+    <time>1757746091.72</time>
   </revision>
   <OPNsense>
     <wireguard>
