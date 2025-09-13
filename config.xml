@@ -792,8 +792,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1757744710.92</time>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1757744716.29</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1551,9 +1551,9 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.12" persisted_at="1757744552.23">
+    <unboundplus version="1.0.12" persisted_at="1757744716.29">
       <general>
-        <enabled>0</enabled>
+        <enabled>1</enabled>
         <port>53</port>
         <stats>0</stats>
         <active_interface/>
