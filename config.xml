@@ -803,7 +803,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@192.168.1.133</username>
     <description>/api/ids/settings/set_rule/2000538 made changes</description>
-    <time>1757750184.86</time>
+    <time>1757750184.93</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1145,7 +1145,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <activeTimeout>1800</activeTimeout>
       <inactiveTimeout>15</inactiveTimeout>
     </Netflow>
-    <IDS version="1.1.0" persisted_at="1757750184.86">
+    <IDS version="1.1.0" persisted_at="1757750184.93">
       <rules>
         <rule uuid="ff1bf4b4-4800-4e6f-95e8-04d5ea8797d2">
           <sid>2000536</sid>
