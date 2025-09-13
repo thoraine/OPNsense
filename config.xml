@@ -802,8 +802,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/system_general.php made changes</description>
-    <time>1757746091.72</time>
+    <description>/api/wireguard/server/add_server/ made changes</description>
+    <time>1757746169.57</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -844,7 +844,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <general version="0.0.1" persisted_at="1757745793.15">
         <enabled>1</enabled>
       </general>
-      <server version="1.0.0" persisted_at="1757745784.06">
+      <server version="1.0.0" persisted_at="1757746169.57">
         <servers>
           <server uuid="48097eef-aed3-4ea8-8ee5-9fbe38a96896">
             <enabled>1</enabled>
@@ -862,6 +862,23 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
             <peers>3404aa6d-92af-4df6-8100-b6bcf71d57b1,bbbd4860-3761-4997-aa52-90fe1c325858,6c669d5d-3881-47f9-9b07-dbb59ade7a40</peers>
             <endpoint>103.26.223.168:51820</endpoint>
             <peer_dns>10.10.10.1</peer_dns>
+          </server>
+          <server uuid="76ca50b1-8e08-4144-b67a-0cd65c48c19c">
+            <enabled>1</enabled>
+            <name>test</name>
+            <instance>1</instance>
+            <pubkey>zZ1yNd7EC3J4UstzeSPlFxAbN+rDazpJilVSGhZDVHs=</pubkey>
+            <privkey>CK25Z0gN/oiPBL/wzVLOoPXtsoW+UccdC/tqLO9+O2I=</privkey>
+            <port>11111</port>
+            <mtu/>
+            <dns>192.168.1.4</dns>
+            <tunneladdress/>
+            <disableroutes>0</disableroutes>
+            <gateway/>
+            <carp_depend_on/>
+            <peers/>
+            <endpoint/>
+            <peer_dns/>
           </server>
         </servers>
       </server>
