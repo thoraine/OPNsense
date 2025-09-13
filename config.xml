@@ -121,8 +121,6 @@
       <reboot>0</reboot>
     </firmware>
     <dnsserver>192.168.1.4</dnsserver>
-    <dnsserver>8.8.8.8</dnsserver>
-    <dnsserver>1.1.1.1</dnsserver>
     <language>en_US</language>
     <serialspeed>115200</serialspeed>
     <primaryconsole>video</primaryconsole>
@@ -155,6 +153,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <password/>
       </git>
     </backup>
+    <dnslocalhost>1</dnslocalhost>
   </system>
   <interfaces>
     <wan>
@@ -793,8 +792,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1757744552.23</time>
+    <description>/system_general.php made changes</description>
+    <time>1757744689.98</time>
   </revision>
   <OPNsense>
     <wireguard>
