@@ -237,7 +237,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <spoofmac/>
     </opt3>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1758594561.65">
+  <dnsmasq version="1.0.8" persisted_at="1758594648.94">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -310,6 +310,21 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <cnames/>
       <client_id/>
       <hwaddr>34:5a:60:43:ef:af</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="a2b34102-f9a1-4583-a079-bc0b97d23fc8">
+      <host>sussy-baka</host>
+      <domain/>
+      <local>0</local>
+      <ip>192.168.1.224</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>32:05:fc:57:d7:83</hwaddr>
       <lease_time/>
       <ignore>0</ignore>
       <set_tag/>
@@ -817,8 +832,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1758594561.65</time>
+    <description>/api/dnsmasq/settings/add_host/ made changes</description>
+    <time>1758594648.94</time>
   </revision>
   <OPNsense>
     <wireguard>
