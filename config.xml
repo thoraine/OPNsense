@@ -848,7 +848,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@192.168.1.133</username>
     <description>/api/unbound/settings/set made changes</description>
-    <time>1758633227.28</time>
+    <time>1758633525.24</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1616,7 +1616,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.12" persisted_at="1758633227.28">
+    <unboundplus version="1.0.12" persisted_at="1758633525.24">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1690,7 +1690,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <dnsbl>
         <enabled>0</enabled>
         <safesearch>0</safesearch>
-        <type>atf,aa,ag,el,ep,oisd0,oisd1</type>
+        <type>atf,aa,ag,el,ep,hgz003,oisd0,oisd1</type>
         <lists/>
         <whitelists/>
         <blocklists/>
