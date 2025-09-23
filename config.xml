@@ -832,8 +832,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1758594650.84</time>
+    <description>/api/zenarmor/policy/exclusions?id=0 made changes</description>
+    <time>1758594983.55</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1747,7 +1747,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       </hosts>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1758593755.87">
+    <Zenarmor version="0.0.0" persisted_at="1758594983.55">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
