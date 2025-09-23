@@ -803,7 +803,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@10.10.10.4</username>
     <description>/api/zenarmor/configuration/reverse_dns made changes</description>
-    <time>1758593541.80</time>
+    <time>1758593544.73</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1717,7 +1717,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       </hosts>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1758593541.80">
+    <Zenarmor version="0.0.0" persisted_at="1758593544.73">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
@@ -1868,7 +1868,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <enabled>false</enabled>
       </agentrestapi>
       <dnsEncrihmentConfig>
-        <servers>192.168.1.1,192.168.1.4</servers>
+        <servers>192.168.1.1</servers>
         <reverse>false</reverse>
         <aliases>true</aliases>
       </dnsEncrihmentConfig>
