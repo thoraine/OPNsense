@@ -847,8 +847,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/unbound/settings/toggleForward/288b8ce8-4918-4ee9-bb15-3794929e81bc made changes</description>
-    <time>1758633631.88</time>
+    <description>/api/unbound/settings/toggleForward/9c89429b-0699-4915-8aca-0d366df90d45 made changes</description>
+    <time>1758633632.37</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1616,7 +1616,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.12" persisted_at="1758633631.88">
+    <unboundplus version="1.0.12" persisted_at="1758633632.37">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1725,7 +1725,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
           <description/>
         </dot>
         <dot uuid="9c89429b-0699-4915-8aca-0d366df90d45">
-          <enabled>1</enabled>
+          <enabled>0</enabled>
           <type>forward</type>
           <domain/>
           <server>1.1.1.1</server>
