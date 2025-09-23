@@ -237,7 +237,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <spoofmac/>
     </opt3>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1758594650.84">
+  <dnsmasq version="1.0.8" persisted_at="1758608588.68">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -325,6 +325,21 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <cnames/>
       <client_id/>
       <hwaddr>32:05:fc:57:d7:83</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="dac16d4c-74ff-42bb-9cf3-f494adaa610b">
+      <host>Ana_HUAWEI_P30_Pro-df738515b3</host>
+      <domain/>
+      <local>0</local>
+      <ip>192.168.1.147</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>d2:48:42:9f:68:f2</hwaddr>
       <lease_time/>
       <ignore>0</ignore>
       <set_tag/>
@@ -832,8 +847,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/api/zenarmor/policy/exclusions?id=0 made changes</description>
-    <time>1758594983.55</time>
+    <description>/api/dnsmasq/settings/add_host/ made changes</description>
+    <time>1758608588.68</time>
   </revision>
   <OPNsense>
     <wireguard>
