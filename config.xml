@@ -237,7 +237,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <spoofmac/>
     </opt3>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1758608590.83">
+  <dnsmasq version="1.0.8" persisted_at="1758630728.46">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -318,7 +318,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <aliases/>
     </hosts>
     <hosts uuid="a2b34102-f9a1-4583-a079-bc0b97d23fc8">
-      <host>sussy-baka</host>
+      <host>Ana-S23U</host>
       <domain/>
       <local>0</local>
       <ip>192.168.1.224</ip>
@@ -846,9 +846,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@10.10.10.4</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1758608590.83</time>
+    <username>root@192.168.1.133</username>
+    <description>/api/dnsmasq/settings/set_host/a2b34102-f9a1-4583-a079-bc0b97d23fc8 made changes</description>
+    <time>1758630728.46</time>
   </revision>
   <OPNsense>
     <wireguard>
