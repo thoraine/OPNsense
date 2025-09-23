@@ -120,7 +120,7 @@
       <subscription/>
       <reboot>0</reboot>
     </firmware>
-    <dnsserver>192.168.1.4</dnsserver>
+    <dnsserver>192.168.1.1</dnsserver>
     <language>en_US</language>
     <serialspeed>115200</serialspeed>
     <primaryconsole>video</primaryconsole>
@@ -847,8 +847,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1758633669.34</time>
+    <description>/system_general.php made changes</description>
+    <time>1758633711.15</time>
   </revision>
   <OPNsense>
     <wireguard>
