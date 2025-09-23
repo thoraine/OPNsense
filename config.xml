@@ -801,9 +801,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.133</username>
-    <description>/api/ids/settings/set made changes</description>
-    <time>1757753008.83</time>
+    <username>root@10.10.10.4</username>
+    <description>/api/zenarmor/policy/exclusions?id=0 made changes</description>
+    <time>1758593169.36</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1717,7 +1717,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       </hosts>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1757641597.49">
+    <Zenarmor version="0.0.0" persisted_at="1758593169.36">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
