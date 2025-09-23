@@ -237,7 +237,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <spoofmac/>
     </opt3>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1757745930.66">
+  <dnsmasq version="1.0.8" persisted_at="1758594555.31">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -299,6 +299,21 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <ignore>0</ignore>
       <set_tag/>
       <descr>Unifi Controller</descr>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="9d580c62-5045-4b98-b72b-61175f8a03cf">
+      <host>DESKTOP-THORAINE</host>
+      <domain/>
+      <local>0</local>
+      <ip>192.168.1.133</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>34:5a:60:43:ef:af</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
       <comments/>
       <aliases/>
     </hosts>
@@ -802,8 +817,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/api/zenarmor/policy/exclusions?id=0 made changes</description>
-    <time>1758593755.87</time>
+    <description>/api/dnsmasq/settings/add_host/ made changes</description>
+    <time>1758594555.31</time>
   </revision>
   <OPNsense>
     <wireguard>
