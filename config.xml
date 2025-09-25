@@ -237,7 +237,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <spoofmac/>
     </opt3>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1758633993.70">
+  <dnsmasq version="1.0.8" persisted_at="1758765156.27">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -340,6 +340,21 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <cnames/>
       <client_id/>
       <hwaddr>d2:48:42:9f:68:f2</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="0fb8accf-d1b5-4962-89b4-f1b0845e4c7f">
+      <host>Dad-OnePlus-13R</host>
+      <domain/>
+      <local>0</local>
+      <ip>192.168.69.170</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>6a:85:20:70:d5:f4</hwaddr>
       <lease_time/>
       <ignore>0</ignore>
       <set_tag/>
@@ -835,9 +850,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.133</username>
-    <description>/api/zenarmor/policy/exclusions?id=0 made changes</description>
-    <time>1758674603.20</time>
+    <username>root@10.10.10.4</username>
+    <description>/api/dnsmasq/settings/add_host/ made changes</description>
+    <time>1758765156.27</time>
   </revision>
   <OPNsense>
     <wireguard>
