@@ -850,9 +850,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@10.10.10.4</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1758765157.93</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
+    <time>1758850605.68</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1124,7 +1124,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <zones/>
       <templates/>
     </captiveportal>
-    <cron version="1.0.4" persisted_at="1757513043.04">
+    <cron version="1.0.4" persisted_at="1758850605.68">
       <jobs>
         <job uuid="6a7c604d-ef57-48ac-bfa6-ba3cdc55f746">
           <origin>IDS</origin>
@@ -1138,19 +1138,6 @@ ae0482c1428a7be801fa0e4ba7c8569c
           <command>ids update</command>
           <parameters/>
           <description>ids rule updates</description>
-        </job>
-        <job uuid="e6ac7b48-d480-44ba-b3b4-ace701442fda">
-          <origin>Zenarmor</origin>
-          <enabled>1</enabled>
-          <minutes>*</minutes>
-          <hours>*</hours>
-          <days>*</days>
-          <months>*</months>
-          <weekdays>*</weekdays>
-          <who>root</who>
-          <command>zenarmor periodicals</command>
-          <parameters/>
-          <description>Zenarmor periodicals</description>
         </job>
       </jobs>
     </cron>
