@@ -851,8 +851,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/cron/settings/set_job/6a7c604d-ef57-48ac-bfa6-ba3cdc55f746 made changes</description>
-    <time>1759325282.27</time>
+    <description>/api/cron/settings/add_job/ made changes</description>
+    <time>1759325308.36</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1124,7 +1124,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <zones/>
       <templates/>
     </captiveportal>
-    <cron version="1.0.4" persisted_at="1759325282.27">
+    <cron version="1.0.4" persisted_at="1759325308.36">
       <jobs>
         <job uuid="6a7c604d-ef57-48ac-bfa6-ba3cdc55f746">
           <origin>IDS</origin>
@@ -1151,6 +1151,19 @@ ae0482c1428a7be801fa0e4ba7c8569c
           <command>zenarmor periodicals</command>
           <parameters/>
           <description>Zenarmor periodicals</description>
+        </job>
+        <job uuid="645e143a-fd65-428f-ba59-4dda0b11122a">
+          <origin>cron</origin>
+          <enabled>1</enabled>
+          <minutes>10</minutes>
+          <hours>1</hours>
+          <days>*</days>
+          <months>*</months>
+          <weekdays>*</weekdays>
+          <who>root</who>
+          <command>unbound dnsbl</command>
+          <parameters/>
+          <description>Update Unbound BLs</description>
         </job>
       </jobs>
     </cron>
