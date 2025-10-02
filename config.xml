@@ -852,7 +852,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@10.10.10.4</username>
     <description>/api/unbound/settings/add_host_override/ made changes</description>
-    <time>1759375225.99</time>
+    <time>1759375274.77</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1633,7 +1633,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.12" persisted_at="1759375225.99">
+    <unboundplus version="1.0.12" persisted_at="1759375274.77">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1789,6 +1789,18 @@ ae0482c1428a7be801fa0e4ba7c8569c
           <server>192.168.1.2</server>
           <txtdata/>
           <description>Kelland FlexHD AP</description>
+        </host>
+        <host uuid="3e356aea-c9de-4fd1-bf4d-73b8a018e37d">
+          <enabled>1</enabled>
+          <hostname>printer</hostname>
+          <domain>chewynetwork.home.arpa</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <ttl/>
+          <server>192.168.1.100</server>
+          <txtdata/>
+          <description>Printer</description>
         </host>
       </hosts>
       <aliases/>
