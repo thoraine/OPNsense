@@ -17,7 +17,7 @@
   <system>
     <optimization>normal</optimization>
     <hostname>router</hostname>
-    <domain>chewynetwork.com</domain>
+    <domain>chewynetwork.home.arpa</domain>
     <dnsallowoverride>0</dnsallowoverride>
     <dnsallowoverride_exclude/>
     <group uuid="f2416c94-4973-45a6-9761-c8477e32ca7b">
@@ -850,9 +850,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.133</username>
-    <description>/api/cron/settings/add_job/ made changes</description>
-    <time>1759325308.36</time>
+    <username>root@10.10.10.4</username>
+    <description>/system_general.php made changes</description>
+    <time>1759375068.60</time>
   </revision>
   <OPNsense>
     <wireguard>
