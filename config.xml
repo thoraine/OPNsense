@@ -851,8 +851,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/api/unbound/settings/del_host_override/7fdfec96-09c1-4041-95b8-bd9c59819510 made changes</description>
-    <time>1759375135.17</time>
+    <description>/api/unbound/settings/add_host_override/ made changes</description>
+    <time>1759375209.47</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1633,7 +1633,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.12" persisted_at="1759375135.17">
+    <unboundplus version="1.0.12" persisted_at="1759375209.47">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1765,6 +1765,18 @@ ae0482c1428a7be801fa0e4ba7c8569c
           <server>192.168.1.5</server>
           <txtdata/>
           <description>Unifi Controller</description>
+        </host>
+        <host uuid="6e7b75b0-4ac4-454f-ba3e-22d371a42239">
+          <enabled>1</enabled>
+          <hostname>livingroom-ap</hostname>
+          <domain>chewynetwork.home.arpa</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <ttl/>
+          <server>192.168.1.3</server>
+          <txtdata/>
+          <description>Living Room FlexHD AP</description>
         </host>
       </hosts>
       <aliases/>
