@@ -852,7 +852,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@10.10.10.4</username>
     <description>/api/unbound/settings/add_host_override/ made changes</description>
-    <time>1759375209.47</time>
+    <time>1759375225.99</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1633,7 +1633,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.12" persisted_at="1759375209.47">
+    <unboundplus version="1.0.12" persisted_at="1759375225.99">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1777,6 +1777,18 @@ ae0482c1428a7be801fa0e4ba7c8569c
           <server>192.168.1.3</server>
           <txtdata/>
           <description>Living Room FlexHD AP</description>
+        </host>
+        <host uuid="db68caf9-bfaf-43f5-88fc-04f365815943">
+          <enabled>1</enabled>
+          <hostname>kelland-ap</hostname>
+          <domain>chewynetwork.home.arpa</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <ttl/>
+          <server>192.168.1.2</server>
+          <txtdata/>
+          <description>Kelland FlexHD AP</description>
         </host>
       </hosts>
       <aliases/>
