@@ -852,7 +852,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1760105015.36</time>
+    <time>1760105015.60</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1792,7 +1792,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       </hosts>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1760105015.36">
+    <Zenarmor version="0.0.0" persisted_at="1760105015.60">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
@@ -1960,7 +1960,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       </intrusiondetection>
       <streamReportConfig>
         <enabled>false</enabled>
-        <server>127.0.0.1</server>
+        <server/>
         <port>514</port>
         <protocol>UDP</protocol>
         <indexes/>
