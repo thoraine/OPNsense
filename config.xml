@@ -852,7 +852,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@192.168.1.133</username>
     <description>/api/zenarmor/configuration/license_detail made changes</description>
-    <time>1760105359.95</time>
+    <time>1760105360.01</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1805,7 +1805,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       </hosts>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1760105359.95">
+    <Zenarmor version="0.0.0" persisted_at="1760105360.01">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
