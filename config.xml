@@ -850,9 +850,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1760105016.33</time>
+    <username>root@192.168.1.133</username>
+    <description>/api/zenarmor/configuration/privacy made changes</description>
+    <time>1760105348.93</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1805,7 +1805,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       </hosts>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1760105016.09">
+    <Zenarmor version="0.0.0" persisted_at="1760105348.93">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
@@ -1833,7 +1833,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <showWanIface>false</showWanIface>
         <flavor>100</flavor>
         <healthCheck>true</healthCheck>
-        <healthShare>false</healthShare>
+        <healthShare>true</healthShare>
         <healthTimer>1,11,21,31,41,51 * * * *</healthTimer>
         <updateTimer>8 * * * *</updateTimer>
         <licenseCheckTimer>54 1,4,9,13,19 * * *</licenseCheckTimer>
