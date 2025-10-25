@@ -852,7 +852,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1761369092.69</time>
+    <time>1761369092.96</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1124,7 +1124,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <zones/>
       <templates/>
     </captiveportal>
-    <cron version="1.0.4" persisted_at="1761369086.94">
+    <cron version="1.0.4" persisted_at="1761369092.96">
       <jobs>
         <job uuid="6a7c604d-ef57-48ac-bfa6-ba3cdc55f746">
           <origin>IDS</origin>
@@ -1151,6 +1151,19 @@ ae0482c1428a7be801fa0e4ba7c8569c
           <command>unbound dnsbl</command>
           <parameters/>
           <description>Update Unbound BLs</description>
+        </job>
+        <job uuid="c5185444-3c40-4144-8a69-81ea4efa6032">
+          <origin>Zenarmor</origin>
+          <enabled>1</enabled>
+          <minutes>*</minutes>
+          <hours>*</hours>
+          <days>*</days>
+          <months>*</months>
+          <weekdays>*</weekdays>
+          <who>root</who>
+          <command>zenarmor periodicals</command>
+          <parameters/>
+          <description>Zenarmor periodicals</description>
         </job>
       </jobs>
     </cron>
