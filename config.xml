@@ -850,9 +850,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1763291157.82</time>
+    <username>root@192.168.1.133</username>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1763524132.83</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1634,7 +1634,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.12" persisted_at="1759375274.77">
+    <unboundplus version="1.0.12" persisted_at="1763524132.83" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1706,9 +1706,9 @@ ae0482c1428a7be801fa0e4ba7c8569c
         </acl>
       </acls>
       <dnsbl>
-        <enabled>1</enabled>
+        <enabled>0</enabled>
         <safesearch>0</safesearch>
-        <type>atf,aa,ag,el,ep,hgz003,oisd0,oisd1</type>
+        <type>atf,ag,el,ep,hgz003,oisd0,oisd1</type>
         <lists/>
         <whitelists/>
         <blocklists/>
