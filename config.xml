@@ -237,7 +237,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <spoofmac/>
     </opt3>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1764330123.58" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1767512957.35" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -270,6 +270,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <reply_delay/>
       <enable_ra>0</enable_ra>
       <nosync>0</nosync>
+      <log_dhcp>0</log_dhcp>
+      <log_quiet>0</log_quiet>
     </dhcp>
     <no_ident>1</no_ident>
     <hosts uuid="aa95b53f-862e-493e-95cd-9e74f8aafdb9">
@@ -370,6 +372,21 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <cnames/>
       <client_id/>
       <hwaddr>04:42:1a:97:4c:dc</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="dfa41d7e-e028-440c-a84c-76e30093e7e6">
+      <host>switch</host>
+      <domain>chewynetwork.home.arpa</domain>
+      <local>1</local>
+      <ip>192.168.1.175</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>a4:38:cc:cc:a1:20</hwaddr>
       <lease_time/>
       <ignore>0</ignore>
       <set_tag/>
@@ -865,9 +882,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1765509086.02</time>
+    <username>root@192.168.1.133</username>
+    <description>/api/dnsmasq/settings/add_host/ made changes</description>
+    <time>1767512957.35</time>
   </revision>
   <OPNsense>
     <wireguard>
