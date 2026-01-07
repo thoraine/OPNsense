@@ -884,7 +884,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@192.168.1.133</username>
     <description>/api/wireguard/general/set made changes</description>
-    <time>1767754471.97</time>
+    <time>1767754484.55</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -912,8 +912,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
           </client>
         </clients>
       </client>
-      <general version="0.0.1" persisted_at="1767754471.97" description="WireGuard configuration">
-        <enabled>1</enabled>
+      <general version="0.0.1" persisted_at="1767754484.55" description="WireGuard configuration">
+        <enabled>0</enabled>
       </general>
       <server version="1.0.1" persisted_at="1767754457.28" description="WireGuard instance configuration">
         <servers>
