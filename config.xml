@@ -883,12 +883,12 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1767512958.92</time>
+    <description>/api/wireguard/client/toggle_client/6c669d5d-3881-47f9-9b07-dbb59ade7a40 made changes</description>
+    <time>1767752645.23</time>
   </revision>
   <OPNsense>
     <wireguard>
-      <client version="1.0.0" persisted_at="1757746411.53">
+      <client version="1.0.0" persisted_at="1767752645.23" description="WireGuard peer configuration">
         <clients>
           <client uuid="bbbd4860-3761-4997-aa52-90fe1c325858">
             <enabled>1</enabled>
@@ -911,7 +911,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
             <keepalive/>
           </client>
           <client uuid="6c669d5d-3881-47f9-9b07-dbb59ade7a40">
-            <enabled>1</enabled>
+            <enabled>0</enabled>
             <name>Thoraine-Work</name>
             <pubkey>UJG3o7PZeIUBAdkEFnfi3YZJtGSs+2Eeqh4MFK75nBQ=</pubkey>
             <psk/>
