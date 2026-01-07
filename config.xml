@@ -874,12 +874,12 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.133</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1767754624.89</time>
+    <description>/api/wireguard/client/add_client/ made changes</description>
+    <time>1767754692.44</time>
   </revision>
   <OPNsense>
     <wireguard>
-      <client version="1.0.0" persisted_at="1767753911.23" description="WireGuard peer configuration">
+      <client version="1.0.0" persisted_at="1767754692.44" description="WireGuard peer configuration">
         <clients>
           <client uuid="bbbd4860-3761-4997-aa52-90fe1c325858">
             <enabled>1</enabled>
@@ -901,12 +901,22 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
             <serverport/>
             <keepalive/>
           </client>
+          <client uuid="d8750e4c-9ac2-4865-bbe8-a556023e4aa6">
+            <enabled>1</enabled>
+            <name>Thoraine-Mobile</name>
+            <pubkey>R8+IeYfQQG0U9w9W8bDsNV20k5nCyKyTDnugj2kqVX8=</pubkey>
+            <psk/>
+            <tunneladdress>10.10.10.4/32</tunneladdress>
+            <serveraddress/>
+            <serverport/>
+            <keepalive>25</keepalive>
+          </client>
         </clients>
       </client>
       <general version="0.0.1" persisted_at="1767754624.89" description="WireGuard configuration">
         <enabled>0</enabled>
       </general>
-      <server version="1.0.1" persisted_at="1767754533.21" description="WireGuard instance configuration">
+      <server version="1.0.1" persisted_at="1767754692.44" description="WireGuard instance configuration">
         <servers>
           <server uuid="48097eef-aed3-4ea8-8ee5-9fbe38a96896">
             <enabled>0</enabled>
@@ -921,7 +931,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
             <disableroutes>0</disableroutes>
             <gateway/>
             <carp_depend_on/>
-            <peers>3404aa6d-92af-4df6-8100-b6bcf71d57b1,bbbd4860-3761-4997-aa52-90fe1c325858</peers>
+            <peers>3404aa6d-92af-4df6-8100-b6bcf71d57b1,bbbd4860-3761-4997-aa52-90fe1c325858,d8750e4c-9ac2-4865-bbe8-a556023e4aa6</peers>
             <debug>0</debug>
             <endpoint>103.26.223.168:51820</endpoint>
             <peer_dns>10.10.10.1</peer_dns>
