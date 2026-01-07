@@ -227,15 +227,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <lock>1</lock>
       <spoofmac/>
     </opt3>
-    <wireguard>
-      <internal_dynamic>1</internal_dynamic>
-      <descr>WireGuard (Group)</descr>
-      <if>wireguard</if>
-      <virtual>1</virtual>
-      <enable>1</enable>
-      <type>group</type>
-      <networks/>
-    </wireguard>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1767512958.92" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
@@ -882,9 +873,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.133</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1767754535.11</time>
+    <username>(root)</username>
+    <description>Updated plugin interface configuration</description>
+    <time>1767754535.20</time>
   </revision>
   <OPNsense>
     <wireguard>
