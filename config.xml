@@ -191,6 +191,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <spoofmac/>
       <ipaddr>192.168.1.1</ipaddr>
       <subnet>24</subnet>
+      <mtu>1500</mtu>
     </lan>
     <lo0>
       <internal_dynamic>1</internal_dynamic>
@@ -219,6 +220,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <enable>1</enable>
       <lock>1</lock>
       <spoofmac/>
+      <mtu>1500</mtu>
     </opt2>
     <opt3>
       <if>ovpns1</if>
@@ -884,7 +886,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1767783965.22</time>
+    <time>1767783965.67</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1147,7 +1149,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <zones/>
       <templates/>
     </captiveportal>
-    <cron version="1.0.4" persisted_at="1767783959.16" description="Cron settings">
+    <cron version="1.0.4" persisted_at="1767783965.67" description="Cron settings">
       <jobs>
         <job uuid="6a7c604d-ef57-48ac-bfa6-ba3cdc55f746">
           <origin>IDS</origin>
@@ -1174,6 +1176,19 @@ ae0482c1428a7be801fa0e4ba7c8569c
           <command>unbound dnsbl</command>
           <parameters/>
           <description>Update Unbound BLs</description>
+        </job>
+        <job uuid="131e1c66-8286-47d4-9d46-b6a1cd3985e6">
+          <origin>Zenarmor</origin>
+          <enabled>1</enabled>
+          <minutes>*</minutes>
+          <hours>*</hours>
+          <days>*</days>
+          <months>*</months>
+          <weekdays>*</weekdays>
+          <who>root</who>
+          <command>zenarmor periodicals</command>
+          <parameters/>
+          <description>Zenarmor periodicals</description>
         </job>
       </jobs>
     </cron>
