@@ -911,8 +911,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1768546938.89</time>
+    <description>/api/unbound/settings/add_host_override/ made changes</description>
+    <time>1768546995.85</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1684,7 +1684,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1768525552.72" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1768546995.85" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1857,6 +1857,18 @@ ae0482c1428a7be801fa0e4ba7c8569c
           <server>192.168.1.100</server>
           <txtdata/>
           <description>Printer</description>
+        </host>
+        <host uuid="6faabe28-2959-4775-be64-1e37eaa9aca7">
+          <enabled>1</enabled>
+          <hostname>dns</hostname>
+          <domain>chewynetwork.home.arpa</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <ttl/>
+          <server>192.168.1.5</server>
+          <txtdata/>
+          <description>AdGuard</description>
         </host>
       </hosts>
       <aliases/>
