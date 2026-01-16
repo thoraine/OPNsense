@@ -884,9 +884,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.133</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1767784234.60</time>
+    <username>root@10.10.10.2</username>
+    <description>/api/unbound/settings/toggleDnsbl/1a470cf5-d4d3-4b4e-995a-47e0a34138c2 made changes</description>
+    <time>1768525552.72</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1658,7 +1658,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1764328085.85" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1768525552.72" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1732,7 +1732,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       </acls>
       <dnsbl>
         <blocklist uuid="1a470cf5-d4d3-4b4e-995a-47e0a34138c2">
-          <enabled>1</enabled>
+          <enabled>0</enabled>
           <type>atf,ag,el,ep,hgz003,oisd0,oisd1</type>
           <lists/>
           <allowlists/>
