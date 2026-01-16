@@ -239,7 +239,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <networks/>
     </wireguard>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1768546938.89" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1768547204.22" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -453,7 +453,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     </dhcp_ranges>
     <dhcp_options uuid="ae6f3a67-7ecd-44be-98d8-92808ba4e7dd">
       <type>set</type>
-      <option>54</option>
+      <option>6</option>
       <option6/>
       <interface>lan</interface>
       <tag/>
@@ -911,8 +911,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/api/unbound/settings/set_host_override/6faabe28-2959-4775-be64-1e37eaa9aca7 made changes</description>
-    <time>1768547121.60</time>
+    <description>/api/dnsmasq/settings/set_option/ae6f3a67-7ecd-44be-98d8-92808ba4e7dd made changes</description>
+    <time>1768547204.22</time>
   </revision>
   <OPNsense>
     <wireguard>
