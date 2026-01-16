@@ -912,7 +912,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@10.10.10.4</username>
     <description>/api/unbound/settings/add_host_override/ made changes</description>
-    <time>1768546995.85</time>
+    <time>1768547024.62</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1684,7 +1684,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1768546995.85" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1768547024.62" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1869,6 +1869,18 @@ ae0482c1428a7be801fa0e4ba7c8569c
           <server>192.168.1.5</server>
           <txtdata/>
           <description>AdGuard</description>
+        </host>
+        <host uuid="d71911b9-9642-451d-b762-57fef3210235">
+          <enabled>1</enabled>
+          <hostname>proxmox</hostname>
+          <domain>chewynetwork.home.arpa</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <ttl/>
+          <server>192.168.1.10</server>
+          <txtdata/>
+          <description>Proxmox</description>
         </host>
       </hosts>
       <aliases/>
