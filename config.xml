@@ -911,8 +911,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/api/unbound/settings/add_host_override/ made changes</description>
-    <time>1768547024.62</time>
+    <description>/api/unbound/settings/set_host_override/6faabe28-2959-4775-be64-1e37eaa9aca7 made changes</description>
+    <time>1768547121.60</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1684,7 +1684,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1768547024.62" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1768547121.60" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1866,7 +1866,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
           <mxprio/>
           <mx/>
           <ttl/>
-          <server>192.168.1.5</server>
+          <server>192.168.1.4</server>
           <txtdata/>
           <description>AdGuard</description>
         </host>
