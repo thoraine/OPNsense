@@ -239,7 +239,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <networks/>
     </wireguard>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1767512958.92" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1768525599.64" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -436,6 +436,17 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <ra_router_lifetime/>
       <description>IoT</description>
     </dhcp_ranges>
+    <dhcp_options uuid="ae6f3a67-7ecd-44be-98d8-92808ba4e7dd">
+      <type>set</type>
+      <option>54</option>
+      <option6/>
+      <interface>lan</interface>
+      <tag/>
+      <set_tag/>
+      <value>192.168.1.4</value>
+      <force>0</force>
+      <description>DNS</description>
+    </dhcp_options>
   </dnsmasq>
   <snmpd>
     <syslocation/>
@@ -885,8 +896,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.2</username>
-    <description>/api/unbound/settings/toggleDnsbl/1a470cf5-d4d3-4b4e-995a-47e0a34138c2 made changes</description>
-    <time>1768525552.72</time>
+    <description>/api/dnsmasq/settings/add_option/ made changes</description>
+    <time>1768525599.64</time>
   </revision>
   <OPNsense>
     <wireguard>
