@@ -911,8 +911,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1768547205.70</time>
+    <description>/api/unbound/settings/delForward/7caa974a-48f6-4b40-992d-0d39bd9049a8 made changes</description>
+    <time>1768547930.93</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1684,7 +1684,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1768547121.60" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1768547930.93" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1775,17 +1775,6 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <enabled>0</enabled>
       </forwarding>
       <dots>
-        <dot uuid="7caa974a-48f6-4b40-992d-0d39bd9049a8">
-          <enabled>0</enabled>
-          <type>forward</type>
-          <domain/>
-          <server>192.168.1.4</server>
-          <port>53</port>
-          <verify/>
-          <forward_tcp_upstream>0</forward_tcp_upstream>
-          <forward_first>1</forward_first>
-          <description>AdGuard</description>
-        </dot>
         <dot uuid="288b8ce8-4918-4ee9-bb15-3794929e81bc">
           <enabled>0</enabled>
           <type>forward</type>
