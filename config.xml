@@ -910,9 +910,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@10.10.10.4</username>
-    <description>/api/unbound/settings/delForward/9c89429b-0699-4915-8aca-0d366df90d45 made changes</description>
-    <time>1768547930.95</time>
+    <username>root@192.168.1.67</username>
+    <description>/api/wireguard/general/set made changes</description>
+    <time>1768615861.16</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -950,7 +950,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
           </client>
         </clients>
       </client>
-      <general version="0.0.1" persisted_at="1768529773.54" description="WireGuard configuration">
+      <general version="0.0.1" persisted_at="1768615861.16" description="WireGuard configuration">
         <enabled>1</enabled>
       </general>
       <server version="1.0.1" persisted_at="1767755174.03" description="WireGuard instance configuration">
