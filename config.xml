@@ -243,6 +243,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <descr>WAN_WARP</descr>
       <enable>1</enable>
       <spoofmac/>
+      <mss>1280</mss>
     </opt4>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1768547205.70" description="Dnsmasq DNS and DHCP">
@@ -972,8 +973,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/firewall_nat_out.php made changes</description>
-    <time>1769518852.26</time>
+    <description>/interfaces.php made changes</description>
+    <time>1769518980.20</time>
   </revision>
   <OPNsense>
     <wireguard>
