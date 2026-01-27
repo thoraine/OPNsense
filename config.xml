@@ -911,8 +911,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1769518148.46</time>
+    <description>/api/wireguard/server/add_server/ made changes</description>
+    <time>1769518202.84</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -963,7 +963,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <general version="0.0.1" persisted_at="1769518148.46" description="WireGuard configuration">
         <enabled>1</enabled>
       </general>
-      <server version="1.0.1" persisted_at="1769518143.70" description="WireGuard instance configuration">
+      <server version="1.0.1" persisted_at="1769518202.84" description="WireGuard instance configuration">
         <servers>
           <server uuid="48097eef-aed3-4ea8-8ee5-9fbe38a96896">
             <enabled>1</enabled>
@@ -982,6 +982,24 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
             <debug>0</debug>
             <endpoint>103.26.223.168:51820</endpoint>
             <peer_dns>10.10.10.1</peer_dns>
+          </server>
+          <server uuid="3fd490e8-26a7-43dc-8f50-3fb1d99c9444">
+            <enabled>1</enabled>
+            <name>WARP_Interface</name>
+            <instance>1</instance>
+            <pubkey/>
+            <privkey>KNY1us8uP0pxcC5KcbwJDZGK/S9QOE0kKAHGLF5BtGc=</privkey>
+            <port/>
+            <mtu/>
+            <dns/>
+            <tunneladdress>172.16.0.2/32</tunneladdress>
+            <disableroutes>1</disableroutes>
+            <gateway/>
+            <carp_depend_on/>
+            <peers>c800c5ed-57d6-4415-b49d-fb9d1ec52e7c</peers>
+            <debug>0</debug>
+            <endpoint/>
+            <peer_dns/>
           </server>
         </servers>
       </server>
