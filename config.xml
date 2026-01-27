@@ -989,6 +989,29 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <scrub>
+      <rule>
+        <interface>opt4</interface>
+        <proto>any</proto>
+        <src>any</src>
+        <srcmask>24</srcmask>
+        <dst>any</dst>
+        <dstmask>24</dstmask>
+        <max-mss>1280</max-mss>
+        <descr>WARP MSS Clamping</descr>
+        <direction>in</direction>
+        <updated>
+          <username>root@192.168.1.67</username>
+          <time>1769521413.85</time>
+          <description>/firewall_scrub_edit.php made changes</description>
+        </updated>
+        <created>
+          <username>root@192.168.1.67</username>
+          <time>1769521413.85</time>
+          <description>/firewall_scrub_edit.php made changes</description>
+        </created>
+      </rule>
+    </scrub>
   </filter>
   <rrd>
     <enable/>
@@ -998,8 +1021,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/firewall_nat_out.php made changes</description>
-    <time>1769520664.23</time>
+    <description>/firewall_scrub_edit.php made changes</description>
+    <time>1769521413.89</time>
   </revision>
   <OPNsense>
     <wireguard>
