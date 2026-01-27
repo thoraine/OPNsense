@@ -846,7 +846,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <type>pass</type>
       <interface>lan</interface>
       <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
+      <statetype>sloppy state</statetype>
       <descr>Selective Routing out to WARP</descr>
       <gateway>WARP_GW</gateway>
       <direction>in</direction>
@@ -859,7 +859,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       </destination>
       <updated>
         <username>root@192.168.1.67</username>
-        <time>1769518781.67</time>
+        <time>1769526285.02</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1022,8 +1022,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1769522490.69</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1769526285.06</time>
   </revision>
   <OPNsense>
     <wireguard>
