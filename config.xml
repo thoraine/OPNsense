@@ -998,12 +998,12 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <srcmask>24</srcmask>
         <dst>any</dst>
         <dstmask>24</dstmask>
-        <max-mss>1280</max-mss>
+        <max-mss>1240</max-mss>
         <descr>WARP MSS Clamping</descr>
-        <direction>in</direction>
+        <direction>out</direction>
         <updated>
           <username>root@192.168.1.67</username>
-          <time>1769521413.85</time>
+          <time>1769522389.00</time>
           <description>/firewall_scrub_edit.php made changes</description>
         </updated>
         <created>
@@ -1022,8 +1022,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/interfaces.php made changes</description>
-    <time>1769522360.34</time>
+    <description>/firewall_scrub_edit.php made changes</description>
+    <time>1769522389.04</time>
   </revision>
   <OPNsense>
     <wireguard>
