@@ -915,8 +915,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1769518243.46</time>
+    <description>/api/firewall/alias/add_item/ made changes</description>
+    <time>1769518467.80</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1261,11 +1261,35 @@ ae0482c1428a7be801fa0e4ba7c8569c
           </template>
         </templates>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1757422061.01">
+      <Alias version="1.0.1" persisted_at="1769518467.80" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
-        <aliases/>
+        <aliases>
+          <alias uuid="e0a5758f-e9d3-4efc-b0dc-3d4c30abcc81">
+            <enabled>1</enabled>
+            <name>Blocked_Sites</name>
+            <type>host</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>104.26.7.171
+172.67.70.124
+104.26.6.171
+2606:4700::6812:9328
+2606:4700::6812:9228
+104.18.146.40
+104.18.147.40</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description>Blocked sites</description>
+          </alias>
+        </aliases>
       </Alias>
       <Category version="1.0.0" persisted_at="1757422061.01">
         <categories/>
