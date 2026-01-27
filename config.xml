@@ -973,8 +973,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1769519673.42</time>
+    <description>/api/firewall/alias/set_item/e0a5758f-e9d3-4efc-b0dc-3d4c30abcc81 made changes</description>
+    <time>1769519727.61</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1319,7 +1319,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
           </template>
         </templates>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1769518469.27" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1769519727.61" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
