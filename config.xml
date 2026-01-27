@@ -1022,8 +1022,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/wireguard/server/toggle_server/3fd490e8-26a7-43dc-8f50-3fb1d99c9444 made changes</description>
-    <time>1769522162.57</time>
+    <description>/api/wireguard/general/set made changes</description>
+    <time>1769522163.62</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1071,7 +1071,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
           </client>
         </clients>
       </client>
-      <general version="0.0.1" persisted_at="1769522157.88" description="WireGuard configuration">
+      <general version="0.0.1" persisted_at="1769522163.62" description="WireGuard configuration">
         <enabled>1</enabled>
       </general>
       <server version="1.0.1" persisted_at="1769522162.57" description="WireGuard instance configuration">
