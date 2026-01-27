@@ -973,8 +973,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/interfaces.php made changes</description>
-    <time>1769518980.20</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1769519662.90</time>
   </revision>
   <OPNsense>
     <wireguard>
