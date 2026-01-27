@@ -238,10 +238,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <type>group</type>
       <networks/>
     </wireguard>
-    <opt4>
-      <descr>CloudflareWARP</descr>
-      <if>wg1</if>
-    </opt4>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1768547205.70" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
@@ -916,7 +912,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@192.168.1.67</username>
     <description>/interfaces_assign.php made changes</description>
-    <time>1769518227.97</time>
+    <time>1769518239.80</time>
   </revision>
   <OPNsense>
     <wireguard>
