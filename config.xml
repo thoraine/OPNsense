@@ -1,14 +1,13 @@
 <?xml version="1.0"?>
 <opnsense>
   <theme>opnsense-dark</theme>
-  <sysctl version="1.0.1" persisted_at="1757422060.90">
-    <item/>
-    <item>
+  <sysctl version="1.0.2" persisted_at="1769531298.27" description="System Tunables">
+    <item uuid="51c1817b-317c-46f4-a69c-1922da570a89">
       <tunable>dev.netmap.ring_num</tunable>
       <value>1024</value>
       <descr>Automatically added by Zenarmor</descr>
     </item>
-    <item>
+    <item uuid="37578abf-5a7d-4a43-ac7e-d2d7a4b0d9f2">
       <tunable>dev.netmap.buf_num</tunable>
       <value>1000000</value>
       <descr>Automatically added by Zenarmor</descr>
@@ -1021,9 +1020,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.67</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1769526285.06</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1769531298.48</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2254,6 +2253,15 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <webcategoriesType/>
       </rules>
     </Zenarmor>
+    <Hostwatch version="1.0.0" persisted_at="1769531298.44" description="Host discovery">
+      <general>
+        <enabled>1</enabled>
+        <promisc>0</promisc>
+        <verbose>0</verbose>
+        <skip_nets/>
+        <interface/>
+      </general>
+    </Hostwatch>
   </OPNsense>
   <hasync version="1.0.2" persisted_at="1757422060.87">
     <disablepreempt>0</disablepreempt>
