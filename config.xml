@@ -910,13 +910,13 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@10.10.10.2</username>
-    <description>/api/zenarmor/status/service_boot made changes</description>
-    <time>1768670703.25</time>
+    <username>root@192.168.1.67</username>
+    <description>/api/wireguard/client/add_client/ made changes</description>
+    <time>1769518143.70</time>
   </revision>
   <OPNsense>
     <wireguard>
-      <client version="1.0.0" persisted_at="1768615876.00" description="WireGuard peer configuration">
+      <client version="1.0.0" persisted_at="1769518143.70" description="WireGuard peer configuration">
         <clients>
           <client uuid="bbbd4860-3761-4997-aa52-90fe1c325858">
             <enabled>1</enabled>
@@ -948,12 +948,22 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
             <serverport/>
             <keepalive>25</keepalive>
           </client>
+          <client uuid="c800c5ed-57d6-4415-b49d-fb9d1ec52e7c">
+            <enabled>1</enabled>
+            <name>Cloudflare_WARP</name>
+            <pubkey>bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=</pubkey>
+            <psk/>
+            <tunneladdress>0.0.0.0/0,::/0</tunneladdress>
+            <serveraddress>engage.cloudflareclient.com</serveraddress>
+            <serverport>2408</serverport>
+            <keepalive>25</keepalive>
+          </client>
         </clients>
       </client>
       <general version="0.0.1" persisted_at="1768615876.77" description="WireGuard configuration">
         <enabled>1</enabled>
       </general>
-      <server version="1.0.1" persisted_at="1768615876.00" description="WireGuard instance configuration">
+      <server version="1.0.1" persisted_at="1769518143.70" description="WireGuard instance configuration">
         <servers>
           <server uuid="48097eef-aed3-4ea8-8ee5-9fbe38a96896">
             <enabled>1</enabled>
