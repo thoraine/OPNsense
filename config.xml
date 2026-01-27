@@ -847,17 +847,18 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <interface>lan</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
+      <gateway>WARP_GW</gateway>
       <direction>in</direction>
       <quick>1</quick>
       <source>
         <any>1</any>
       </source>
       <destination>
-        <address>104.26.6.171</address>
+        <address>104.26.6.171/32</address>
       </destination>
       <updated>
         <username>root@192.168.1.67</username>
-        <time>1769519771.69</time>
+        <time>1769519819.18</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -997,8 +998,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1769519807.62</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1769519819.22</time>
   </revision>
   <OPNsense>
     <wireguard>
