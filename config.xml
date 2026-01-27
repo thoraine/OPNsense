@@ -816,6 +816,31 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       </created>
       <disabled>1</disabled>
     </rule>
+    <rule uuid="e0f74598-8580-4054-ab14-4c07a427a06e">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <gateway>WARP_GW</gateway>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <address>104.26.6.171/32</address>
+      </destination>
+      <updated>
+        <username>root@192.168.1.67</username>
+        <time>1769519819.18</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.1.67</username>
+        <time>1769519771.69</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="7e2de917-0245-4953-9ef9-967bc69d7970">
       <type>pass</type>
       <interface>lan</interface>
@@ -839,31 +864,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <created>
         <username>root@192.168.1.67</username>
         <time>1769518781.67</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="e0f74598-8580-4054-ab14-4c07a427a06e">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <gateway>WARP_GW</gateway>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <address>104.26.6.171/32</address>
-      </destination>
-      <updated>
-        <username>root@192.168.1.67</username>
-        <time>1769519819.18</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.1.67</username>
-        <time>1769519771.69</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
@@ -998,8 +998,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1769519819.22</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1769520339.18</time>
   </revision>
   <OPNsense>
     <wireguard>
