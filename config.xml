@@ -243,8 +243,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <descr>WAN_WARP</descr>
       <enable>1</enable>
       <spoofmac/>
-      <mtu>1380</mtu>
-      <mss>1340</mss>
+      <mtu>1280</mtu>
+      <mss>1240</mss>
     </opt4>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1768547205.70" description="Dnsmasq DNS and DHCP">
@@ -1022,8 +1022,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1769522163.62</time>
+    <description>/interfaces.php made changes</description>
+    <time>1769522360.34</time>
   </revision>
   <OPNsense>
     <wireguard>
