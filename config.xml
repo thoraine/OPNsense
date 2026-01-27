@@ -810,6 +810,32 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <any/>
       </destination>
     </rule>
+    <rule uuid="7e2de917-0245-4953-9ef9-967bc69d7970">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Selective Routing out to WARP</descr>
+      <gateway>WARP_GW</gateway>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <network>lan</network>
+      </source>
+      <destination>
+        <address>Blocked_Sites</address>
+      </destination>
+      <updated>
+        <username>root@192.168.1.67</username>
+        <time>1769518781.67</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.1.67</username>
+        <time>1769518781.67</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="33c3ee06-aee8-4429-9ce1-e10435fe2b62">
       <type>pass</type>
       <interface>openvpn</interface>
@@ -917,8 +943,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/routing/settings/add_gateway/ made changes</description>
-    <time>1769518718.64</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1769518781.71</time>
   </revision>
   <OPNsense>
     <wireguard>
