@@ -1021,8 +1021,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/routing/settings/set_gateway/ba7364ab-7e4d-4d04-8957-763a8b557c53 made changes</description>
-    <time>1769563827.37</time>
+    <description>/api/firewall/alias/add_item/ made changes</description>
+    <time>1769563968.35</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1367,7 +1367,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
           </template>
         </templates>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1769519728.66" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1769563968.35" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -1394,6 +1394,25 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <expire/>
             <categories/>
             <description>Blocked sites</description>
+          </alias>
+          <alias uuid="53a558e0-aae6-404c-8005-d0bbe7645424">
+            <enabled>1</enabled>
+            <name>RFC1918_Networks</name>
+            <type>network</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>192.168.0.0/16
+172.16.0.0/12
+10.0.0.0/8</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description>All local (RFC1918) networks</description>
           </alias>
         </aliases>
       </Alias>
