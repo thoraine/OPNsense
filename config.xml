@@ -480,6 +480,35 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <mode>hybrid</mode>
       <rule>
         <source>
+          <network>WARP_VPN_Hosts</network>
+        </source>
+        <destination>
+          <any>1</any>
+        </destination>
+        <descr>WARP NAT</descr>
+        <category/>
+        <interface>opt4</interface>
+        <tag/>
+        <tagged/>
+        <poolopts/>
+        <poolopts_sourcehashkey/>
+        <ipprotocol>inet</ipprotocol>
+        <target/>
+        <targetip_subnet>0</targetip_subnet>
+        <sourceport/>
+        <updated>
+          <username>root@192.168.1.67</username>
+          <time>1769564473.48</time>
+          <description>/firewall_nat_out_edit.php made changes</description>
+        </updated>
+        <created>
+          <username>root@192.168.1.67</username>
+          <time>1769564473.48</time>
+          <description>/firewall_nat_out_edit.php made changes</description>
+        </created>
+      </rule>
+      <rule>
+        <source>
           <network>any</network>
         </source>
         <destination>
@@ -593,35 +622,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
           <description>/firewall_nat_out_edit.php made changes</description>
         </created>
         <disabled>1</disabled>
-      </rule>
-      <rule>
-        <source>
-          <network>WARP_VPN_Hosts</network>
-        </source>
-        <destination>
-          <any>1</any>
-        </destination>
-        <descr>WARP NAT</descr>
-        <category/>
-        <interface>opt4</interface>
-        <tag/>
-        <tagged/>
-        <poolopts/>
-        <poolopts_sourcehashkey/>
-        <ipprotocol>inet</ipprotocol>
-        <target/>
-        <targetip_subnet>0</targetip_subnet>
-        <sourceport/>
-        <updated>
-          <username>root@192.168.1.67</username>
-          <time>1769564473.48</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </updated>
-        <created>
-          <username>root@192.168.1.67</username>
-          <time>1769564473.48</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </created>
       </rule>
     </outbound>
     <rule>
@@ -1024,8 +1024,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1769564818.63</time>
+    <description>/firewall_nat_out.php made changes</description>
+    <time>1769564979.84</time>
   </revision>
   <OPNsense>
     <wireguard>
