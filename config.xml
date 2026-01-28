@@ -237,14 +237,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <type>group</type>
       <networks/>
     </wireguard>
-    <opt4>
-      <if>wg1</if>
-      <descr>WAN_WARP</descr>
-      <enable>1</enable>
-      <spoofmac/>
-      <mtu>1280</mtu>
-      <mss>1240</mss>
-    </opt4>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1768547205.70" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
@@ -941,8 +933,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1769565310.84</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1769565333.19</time>
   </revision>
   <OPNsense>
     <wireguard>
