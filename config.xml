@@ -840,6 +840,32 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <any/>
       </destination>
     </rule>
+    <rule uuid="a8666b4d-843a-4e97-93c0-0b620d8eaa23">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <gateway>WARP_GW</gateway>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <address>Blocked_Sites</address>
+      </source>
+      <destination>
+        <address>RFC1918_Networks</address>
+        <not>1</not>
+      </destination>
+      <updated>
+        <username>root@192.168.1.67</username>
+        <time>1769564137.75</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.1.67</username>
+        <time>1769564137.75</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="33c3ee06-aee8-4429-9ce1-e10435fe2b62">
       <type>pass</type>
       <interface>openvpn</interface>
@@ -970,8 +996,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1769564043.29</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1769564137.78</time>
   </revision>
   <OPNsense>
     <wireguard>
