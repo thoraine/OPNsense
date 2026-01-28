@@ -816,32 +816,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       </created>
       <disabled>1</disabled>
     </rule>
-    <rule uuid="7e2de917-0245-4953-9ef9-967bc69d7970">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>sloppy state</statetype>
-      <descr>Selective Routing out to WARP</descr>
-      <gateway>WARP_GW</gateway>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <address>Blocked_Sites</address>
-      </destination>
-      <updated>
-        <username>root@192.168.1.67</username>
-        <time>1769526285.02</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.1.67</username>
-        <time>1769518781.67</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="666fe05d-fcd6-4a00-be0c-1d0df9515ff8">
       <type>pass</type>
       <ipprotocol>inet6</ipprotocol>
@@ -997,7 +971,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@192.168.1.67</username>
     <description>/firewall_rules.php made changes</description>
-    <time>1769564009.74</time>
+    <time>1769564043.29</time>
   </revision>
   <OPNsense>
     <wireguard>
