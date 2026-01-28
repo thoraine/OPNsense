@@ -815,32 +815,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       </created>
       <disabled>1</disabled>
     </rule>
-    <rule uuid="a8666b4d-843a-4e97-93c0-0b620d8eaa23">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <gateway>WARP_GW</gateway>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <address>WARP_VPN_Hosts</address>
-      </source>
-      <destination>
-        <address>RFC1918_Networks</address>
-        <not>1</not>
-      </destination>
-      <updated>
-        <username>root@192.168.1.67</username>
-        <time>1769564415.95</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.1.67</username>
-        <time>1769564137.75</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="e0ff14f6-df63-4b2e-965a-fa00a9c73a42">
       <type>pass</type>
       <ipprotocol>inet</ipprotocol>
@@ -995,8 +969,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/firewall_nat_out.php made changes</description>
-    <time>1769565278.83</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1769565300.43</time>
   </revision>
   <OPNsense>
     <wireguard>
