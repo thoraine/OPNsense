@@ -661,34 +661,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     </rule>
   </nat>
   <filter>
-    <rule uuid="6601e3b7-948c-422f-aa9a-b8ee78c4f32a">
-      <type>pass</type>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>WARP rule idk</descr>
-      <gateway>WARP_GW</gateway>
-      <direction>out</direction>
-      <floating>yes</floating>
-      <allowopts>1</allowopts>
-      <quick>0</quick>
-      <source>
-        <network>opt4ip</network>
-      </source>
-      <destination>
-        <network>opt4</network>
-        <not>1</not>
-      </destination>
-      <updated>
-        <username>root@192.168.1.67</username>
-        <time>1769564252.38</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.1.67</username>
-        <time>1769564252.38</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="28e52c15-a8ea-41f2-b1e0-53a28eb8d9d2">
       <type>pass</type>
       <interface>wan</interface>
@@ -970,7 +942,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@192.168.1.67</username>
     <description>/firewall_rules.php made changes</description>
-    <time>1769565300.43</time>
+    <time>1769565310.84</time>
   </revision>
   <OPNsense>
     <wireguard>
