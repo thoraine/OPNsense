@@ -995,8 +995,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1769564351.13</time>
+    <description>/api/firewall/alias/add_item/ made changes</description>
+    <time>1769564384.95</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1341,7 +1341,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
           </template>
         </templates>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1769564351.13" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1769564384.95" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -1387,6 +1387,23 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <expire/>
             <categories/>
             <description>All local (RFC1918) networks</description>
+          </alias>
+          <alias uuid="b5c2d1c2-0b65-46f7-8d0e-15c483438a00">
+            <enabled>1</enabled>
+            <name>WARP_VPN_Hosts</name>
+            <type>network</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>__lan_network</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description/>
           </alias>
         </aliases>
       </Alias>
