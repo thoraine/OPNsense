@@ -1020,9 +1020,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1769531298.48</time>
+    <username>root@192.168.1.67</username>
+    <description>/api/wireguard/general/set made changes</description>
+    <time>1769563548.39</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1070,7 +1070,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
           </client>
         </clients>
       </client>
-      <general version="0.0.1" persisted_at="1769522490.69" description="WireGuard configuration">
+      <general version="0.0.1" persisted_at="1769563548.39" description="WireGuard configuration">
         <enabled>1</enabled>
       </general>
       <server version="1.0.1" persisted_at="1769522447.75" description="WireGuard instance configuration">
