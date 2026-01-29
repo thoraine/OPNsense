@@ -922,7 +922,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@10.10.10.4</username>
     <description>/api/unbound/settings/add_host_override/ made changes</description>
-    <time>1769680068.24</time>
+    <time>1769680095.81</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1870,7 +1870,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1769680068.24" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1769680095.81" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -2066,6 +2066,18 @@ ae0482c1428a7be801fa0e4ba7c8569c
           <mx/>
           <ttl/>
           <server>192.168.1.67</server>
+          <txtdata/>
+          <description/>
+        </host>
+        <host uuid="4429449a-a404-4c38-ace8-2922959b34fc">
+          <enabled>1</enabled>
+          <hostname>zapret</hostname>
+          <domain>chewynetwork.home.arpa</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <ttl/>
+          <server>192.168.1.6</server>
           <txtdata/>
           <description/>
         </host>
