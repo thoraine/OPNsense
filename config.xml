@@ -920,9 +920,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@10.10.10.4</username>
-    <description>/api/unbound/settings/delDot/dbff7bb2-d445-4125-958e-f455649e2095 made changes</description>
-    <time>1769680129.29</time>
+    <username>root@192.168.1.67</username>
+    <description>/api/routing/settings/set_gateway/74836dd0-b995-438e-983d-23b59573d353 made changes</description>
+    <time>1769684581.99</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1787,7 +1787,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <path/>
       </test>
     </monit>
-    <Gateways version="1.0.0" persisted_at="1769679843.81" description="Gateways configuration">
+    <Gateways version="1.0.0" persisted_at="1769684581.99" description="Gateways configuration">
       <gateway_item uuid="ba7364ab-7e4d-4d04-8957-763a8b557c53">
         <disabled>1</disabled>
         <name>WARP_GW</name>
@@ -1815,7 +1815,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <data_length/>
       </gateway_item>
       <gateway_item uuid="74836dd0-b995-438e-983d-23b59573d353">
-        <disabled>1</disabled>
+        <disabled>0</disabled>
         <name>ZAPRET_GW</name>
         <descr>Zapret GW for HTTPS traffic</descr>
         <interface>lan</interface>
