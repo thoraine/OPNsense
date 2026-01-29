@@ -948,8 +948,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/api/routing/settings/add_gateway/ made changes</description>
-    <time>1769652452.94</time>
+    <description>/api/firewall/alias/add_item/ made changes</description>
+    <time>1769652730.05</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1294,7 +1294,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
           </template>
         </templates>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1769564818.63" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1769652730.05" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -1355,6 +1355,23 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <expire/>
             <categories/>
             <description/>
+          </alias>
+          <alias uuid="99435eca-2f62-4317-a8f9-2c65db814201">
+            <enabled>1</enabled>
+            <name>ZAPRET_CLIENTS</name>
+            <type>host</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>192.168.1.67</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description>Hosts that use ZapRet for proxy</description>
           </alias>
         </aliases>
       </Alias>
