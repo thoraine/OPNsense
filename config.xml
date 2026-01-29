@@ -977,8 +977,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1769655808.79</time>
+    <description>/api/routing/settings/set_gateway/74836dd0-b995-438e-983d-23b59573d353 made changes</description>
+    <time>1769658565.53</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1843,7 +1843,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <path/>
       </test>
     </monit>
-    <Gateways version="1.0.0" persisted_at="1769652452.94" description="Gateways configuration">
+    <Gateways version="1.0.0" persisted_at="1769658565.53" description="Gateways configuration">
       <gateway_item uuid="ba7364ab-7e4d-4d04-8957-763a8b557c53">
         <disabled>1</disabled>
         <name>WARP_GW</name>
@@ -1878,7 +1878,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <ipprotocol>inet</ipprotocol>
         <gateway>192.168.1.6</gateway>
         <defaultgw>0</defaultgw>
-        <fargw>0</fargw>
+        <fargw>1</fargw>
         <monitor_disable>0</monitor_disable>
         <monitor_noroute>0</monitor_noroute>
         <monitor_killstates>0</monitor_killstates>
