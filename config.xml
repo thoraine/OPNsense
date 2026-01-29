@@ -798,7 +798,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <type>pass</type>
       <interface>lan</interface>
       <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
+      <statetype>sloppy state</statetype>
       <descr>Route HTTPS traffic to zapret for specific hosts</descr>
       <gateway>ZAPRET_GW</gateway>
       <direction>in</direction>
@@ -812,8 +812,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <port>443</port>
       </destination>
       <updated>
-        <username>root@10.10.10.4</username>
-        <time>1769652798.46</time>
+        <username>root@192.168.1.67</username>
+        <time>1769655521.54</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -975,9 +975,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@10.10.10.4</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1769654820.03</time>
+    <username>root@192.168.1.67</username>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1769655521.58</time>
   </revision>
   <OPNsense>
     <wireguard>
