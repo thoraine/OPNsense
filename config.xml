@@ -921,8 +921,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/api/unbound/settings/delDot/c5c61702-4e2b-411d-8a7f-f9d5a0356632 made changes</description>
-    <time>1769680129.28</time>
+    <description>/api/unbound/settings/delDot/dbff7bb2-d445-4125-958e-f455649e2095 made changes</description>
+    <time>1769680129.29</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1870,7 +1870,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1769680129.28" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1769680129.29" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1960,19 +1960,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <forwarding>
         <enabled>0</enabled>
       </forwarding>
-      <dots>
-        <dot uuid="dbff7bb2-d445-4125-958e-f455649e2095">
-          <enabled>0</enabled>
-          <type>dot</type>
-          <domain/>
-          <server>1.1.1.1</server>
-          <port>853</port>
-          <verify>cloudflare-dns.com</verify>
-          <forward_tcp_upstream>0</forward_tcp_upstream>
-          <forward_first>0</forward_first>
-          <description/>
-        </dot>
-      </dots>
+      <dots/>
       <hosts>
         <host uuid="27c8b7dc-15d0-418f-9426-5d3078f22807">
           <enabled>1</enabled>
