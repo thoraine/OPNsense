@@ -947,9 +947,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.67</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1769645207.11</time>
+    <username>root@10.10.10.4</username>
+    <description>/api/routing/settings/toggle_gateway/ba7364ab-7e4d-4d04-8957-763a8b557c53 made changes</description>
+    <time>1769652285.68</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1777,9 +1777,9 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <path/>
       </test>
     </monit>
-    <Gateways version="1.0.0" persisted_at="1769563827.37" description="Gateways configuration">
+    <Gateways version="1.0.0" persisted_at="1769652285.68" description="Gateways configuration">
       <gateway_item uuid="ba7364ab-7e4d-4d04-8957-763a8b557c53">
-        <disabled>0</disabled>
+        <disabled>1</disabled>
         <name>WARP_GW</name>
         <descr/>
         <interface>opt4</interface>
