@@ -238,7 +238,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <networks/>
     </wireguard>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1768547205.70" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1769645158.02" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -403,6 +403,21 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <cnames/>
       <client_id/>
       <hwaddr/>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="454a245e-21b1-43b0-b2e5-5b426cc4c274">
+      <host>zapret</host>
+      <domain/>
+      <local>0</local>
+      <ip>192.168.1.7</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>bc:24:11:23:a0:58</hwaddr>
       <lease_time/>
       <ignore>0</ignore>
       <set_tag/>
@@ -933,8 +948,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1769565413.69</time>
+    <description>/api/dnsmasq/settings/add_host/ made changes</description>
+    <time>1769645158.02</time>
   </revision>
   <OPNsense>
     <wireguard>
