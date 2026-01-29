@@ -119,7 +119,7 @@
       <subscription/>
       <reboot>0</reboot>
     </firmware>
-    <dnsserver>192.168.1.1</dnsserver>
+    <dnsserver/>
     <language>en_US</language>
     <serialspeed>115200</serialspeed>
     <primaryconsole>video</primaryconsole>
@@ -921,8 +921,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/api/unbound/settings/setDot/c5c61702-4e2b-411d-8a7f-f9d5a0356632 made changes</description>
-    <time>1769668753.93</time>
+    <description>/system_general.php made changes</description>
+    <time>1769668790.70</time>
   </revision>
   <OPNsense>
     <wireguard>
