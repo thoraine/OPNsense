@@ -821,7 +821,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <time>1769652798.46</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
-      <disabled>1</disabled>
     </rule>
     <rule uuid="e0ff14f6-df63-4b2e-965a-fa00a9c73a42">
       <type>pass</type>
@@ -978,7 +977,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@10.10.10.4</username>
     <description>/firewall_rules.php made changes</description>
-    <time>1769653270.85</time>
+    <time>1769654820.03</time>
   </revision>
   <OPNsense>
     <wireguard>
