@@ -976,8 +976,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1769652801.93</time>
+    <description>/api/firewall/alias/add_item/ made changes</description>
+    <time>1769652858.31</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1322,7 +1322,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
           </template>
         </templates>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1769652734.52" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1769652858.31" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -1394,6 +1394,23 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <counters>0</counters>
             <updatefreq/>
             <content>192.168.1.67</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description>Hosts that use ZapRet for proxy</description>
+          </alias>
+          <alias uuid="ec333ee5-0683-4bab-853a-e40600ab8740">
+            <enabled>1</enabled>
+            <name>ZAPRET_WG_CLIENTS</name>
+            <type>network</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>10.10.10.0/24</content>
             <password/>
             <username/>
             <authtype/>
