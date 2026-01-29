@@ -922,7 +922,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@10.10.10.4</username>
     <description>/api/unbound/settings/addDot/ made changes</description>
-    <time>1769668619.79</time>
+    <time>1769668630.44</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1870,7 +1870,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1769668619.79" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1769668630.44" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1966,6 +1966,17 @@ ae0482c1428a7be801fa0e4ba7c8569c
           <type>dot</type>
           <domain/>
           <server>1.1.1.1</server>
+          <port>853</port>
+          <verify/>
+          <forward_tcp_upstream>0</forward_tcp_upstream>
+          <forward_first>0</forward_first>
+          <description/>
+        </dot>
+        <dot uuid="c5c61702-4e2b-411d-8a7f-f9d5a0356632">
+          <enabled>1</enabled>
+          <type>dot</type>
+          <domain/>
+          <server>1.0.0.1</server>
           <port>853</port>
           <verify/>
           <forward_tcp_upstream>0</forward_tcp_upstream>
