@@ -922,7 +922,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@10.10.10.4</username>
     <description>/api/unbound/settings/set made changes</description>
-    <time>1769668921.49</time>
+    <time>1769668935.56</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1870,7 +1870,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1769668921.49" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1769668935.56" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1906,7 +1906,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <serveexpiredclienttimeout/>
         <qnameminstrict>0</qnameminstrict>
         <extendedstatistics>0</extendedstatistics>
-        <logqueries>0</logqueries>
+        <logqueries>1</logqueries>
         <logreplies>0</logreplies>
         <logtagqueryreply>0</logtagqueryreply>
         <logservfail>0</logservfail>
