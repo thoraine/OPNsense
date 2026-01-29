@@ -921,8 +921,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/api/routing/settings/toggle_gateway/74836dd0-b995-438e-983d-23b59573d353 made changes</description>
-    <time>1769679843.81</time>
+    <description>/api/unbound/settings/add_host_override/ made changes</description>
+    <time>1769680068.24</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1870,7 +1870,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1769679781.66" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1769680068.24" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -2056,6 +2056,18 @@ ae0482c1428a7be801fa0e4ba7c8569c
           <server>192.168.1.10</server>
           <txtdata/>
           <description>Proxmox</description>
+        </host>
+        <host uuid="7238eb99-2b90-4135-83e5-234d79f9c1ff">
+          <enabled>1</enabled>
+          <hostname>thoraine</hostname>
+          <domain>chewynetwork.home.arpa</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <ttl/>
+          <server>192.168.1.67</server>
+          <txtdata/>
+          <description/>
         </host>
       </hosts>
       <aliases/>
