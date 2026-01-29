@@ -238,7 +238,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <networks/>
     </wireguard>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1769645202.02" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1769645207.11" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -948,8 +948,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/dnsmasq/settings/set_host/9d580c62-5045-4b98-b72b-61175f8a03cf made changes</description>
-    <time>1769645202.02</time>
+    <description>/api/dnsmasq/settings/set made changes</description>
+    <time>1769645207.11</time>
   </revision>
   <OPNsense>
     <wireguard>
