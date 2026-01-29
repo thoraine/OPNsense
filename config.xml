@@ -802,8 +802,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <descr>Route HTTPS traffic to zapret for specific hosts</descr>
       <gateway>ZAPRET_GW</gateway>
       <direction>in</direction>
+      <disabled>1</disabled>
       <quick>1</quick>
-      <protocol>tcp</protocol>
+      <protocol>tcp/udp</protocol>
       <source>
         <address>ZAPRET_CLIENTS</address>
       </source>
@@ -812,8 +813,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <port>443</port>
       </destination>
       <updated>
-        <username>root@192.168.1.67</username>
-        <time>1769655521.54</time>
+        <username>root@10.10.10.4</username>
+        <time>1769658866.86</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -821,7 +822,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <time>1769652798.46</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
-      <disabled>1</disabled>
     </rule>
     <rule uuid="e0ff14f6-df63-4b2e-965a-fa00a9c73a42">
       <type>pass</type>
@@ -977,8 +977,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/api/routing/settings/set_gateway/74836dd0-b995-438e-983d-23b59573d353 made changes</description>
-    <time>1769658565.53</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1769658866.90</time>
   </revision>
   <OPNsense>
     <wireguard>
