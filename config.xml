@@ -723,9 +723,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <descr>Route HTTPS traffic to zapret for specific hosts</descr>
       <gateway>ZAPRET_GW</gateway>
       <direction>in</direction>
-      <disabled>1</disabled>
       <quick>1</quick>
-      <protocol>tcp/udp</protocol>
+      <protocol>tcp</protocol>
       <source>
         <address>ZAPRET_CLIENTS</address>
       </source>
@@ -734,8 +733,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <port>443</port>
       </destination>
       <updated>
-        <username>root@10.10.10.4</username>
-        <time>1769658866.86</time>
+        <username>root@192.168.1.67</username>
+        <time>1769685186.81</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -767,6 +766,29 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <destination>
         <any/>
       </destination>
+    </rule>
+    <rule uuid="56e46dd9-e655-43e7-abeb-df2b68ee164c">
+      <type>pass</type>
+      <associated-rule-id>nat_697aeace00f0b5.79553285</associated-rule-id>
+      <source>
+        <address>ZAPRET_CLIENTS</address>
+      </source>
+      <interface>lan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>192.168.1.6</address>
+        <port>443</port>
+      </destination>
+      <disabled>1</disabled>
+      <descr>Route selected clients' HTTPS through DPI bypass</descr>
+      <category/>
+      <created>
+        <username>root@10.10.10.4</username>
+        <time>1769663182.00</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
     </rule>
     <rule uuid="33c3ee06-aee8-4429-9ce1-e10435fe2b62">
       <type>pass</type>
@@ -866,29 +888,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
-      <type>pass</type>
-      <associated-rule-id>nat_697aeace00f0b5.79553285</associated-rule-id>
-      <source>
-        <address>ZAPRET_CLIENTS</address>
-      </source>
-      <interface>lan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>192.168.1.6</address>
-        <port>443</port>
-      </destination>
-      <disabled>1</disabled>
-      <descr>Route selected clients' HTTPS through DPI bypass</descr>
-      <category/>
-      <created>
-        <username>root@10.10.10.4</username>
-        <time>1769663182.00</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
     <scrub>
       <rule>
         <interface>opt4</interface>
@@ -921,8 +920,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/routing/settings/set_gateway/74836dd0-b995-438e-983d-23b59573d353 made changes</description>
-    <time>1769685119.76</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1769685186.84</time>
   </revision>
   <OPNsense>
     <wireguard>
