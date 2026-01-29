@@ -602,7 +602,37 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <disabled>1</disabled>
       </rule>
     </outbound>
-    <rule/>
+    <rule>
+      <protocol>tcp</protocol>
+      <interface>lan</interface>
+      <category/>
+      <ipprotocol>inet</ipprotocol>
+      <descr>Route selected clients' HTTPS through DPI bypass</descr>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>nat_697aeace00f0b5.79553285</associated-rule-id>
+      <disabled>1</disabled>
+      <target>192.168.1.6</target>
+      <local-port>443</local-port>
+      <source>
+        <address>ZAPRET_CLIENTS</address>
+      </source>
+      <destination>
+        <any>1</any>
+        <port>443</port>
+      </destination>
+      <updated>
+        <username>root@10.10.10.4</username>
+        <time>1769663182.00</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.10.4</username>
+        <time>1769663182.00</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </nat>
   <filter>
     <rule uuid="28e52c15-a8ea-41f2-b1e0-53a28eb8d9d2">
@@ -836,6 +866,29 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <type>pass</type>
+      <associated-rule-id>nat_697aeace00f0b5.79553285</associated-rule-id>
+      <source>
+        <address>ZAPRET_CLIENTS</address>
+      </source>
+      <interface>lan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>192.168.1.6</address>
+        <port>443</port>
+      </destination>
+      <disabled>1</disabled>
+      <descr>Route selected clients' HTTPS through DPI bypass</descr>
+      <category/>
+      <created>
+        <username>root@10.10.10.4</username>
+        <time>1769663182.00</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
     <scrub>
       <rule>
         <interface>opt4</interface>
@@ -868,8 +921,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1769663048.87</time>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1769663182.04</time>
   </revision>
   <OPNsense>
     <wireguard>
