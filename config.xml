@@ -602,38 +602,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <disabled>1</disabled>
       </rule>
     </outbound>
-    <rule>
-      <protocol>tcp</protocol>
-      <interface>wan</interface>
-      <category/>
-      <ipprotocol>inet</ipprotocol>
-      <descr>V2Ray Forward</descr>
-      <tag/>
-      <tagged/>
-      <poolopts/>
-      <associated-rule-id>nat_68c293355ef474.79477812</associated-rule-id>
-      <target>192.168.1.6</target>
-      <local-port>80</local-port>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <network>wanip</network>
-        <port>80</port>
-      </destination>
-      <natreflection>purenat</natreflection>
-      <updated>
-        <username>root@10.10.10.4</username>
-        <time>1757582133.39</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@10.10.10.4</username>
-        <time>1757582133.39</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-      <disabled>1</disabled>
-    </rule>
+    <rule/>
   </nat>
   <filter>
     <rule uuid="28e52c15-a8ea-41f2-b1e0-53a28eb8d9d2">
@@ -713,29 +682,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <username>root@10.10.10.4</username>
         <time>1757582067.46</time>
         <description>/firewall_rules_edit.php made changes</description>
-      </created>
-      <disabled>1</disabled>
-    </rule>
-    <rule uuid="87443b17-fe65-4cd0-b756-024bbc53955e">
-      <type>pass</type>
-      <associated-rule-id>nat_68c293355ef474.79477812</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>192.168.1.6</address>
-        <port>80</port>
-      </destination>
-      <descr>V2Ray Forward</descr>
-      <category/>
-      <created>
-        <username>root@10.10.10.4</username>
-        <time>1757582133.39</time>
-        <description>/firewall_nat_edit.php made changes</description>
       </created>
       <disabled>1</disabled>
     </rule>
@@ -923,7 +869,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@10.10.10.4</username>
     <description>/firewall_nat.php made changes</description>
-    <time>1769663046.31</time>
+    <time>1769663048.87</time>
   </revision>
   <OPNsense>
     <wireguard>
