@@ -818,6 +818,34 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <any/>
       </destination>
     </rule>
+    <rule uuid="e883743c-f0fc-4aa9-8c51-1e1e039686ac">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Route HTTPS traffic to zapret for specific hosts</descr>
+      <gateway>ZAPRET_GW</gateway>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <address>ZAPRET_CLIENTS</address>
+      </source>
+      <destination>
+        <any>1</any>
+        <port>443</port>
+      </destination>
+      <updated>
+        <username>root@10.10.10.4</username>
+        <time>1769652798.46</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.10.4</username>
+        <time>1769652798.46</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="33c3ee06-aee8-4429-9ce1-e10435fe2b62">
       <type>pass</type>
       <interface>openvpn</interface>
@@ -948,8 +976,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1769652734.52</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1769652798.49</time>
   </revision>
   <OPNsense>
     <wireguard>
