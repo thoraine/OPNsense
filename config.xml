@@ -791,6 +791,30 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="45631b02-45a2-4ab2-b4a8-be626df0aa8c">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <address>192.168.1.6</address>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@192.168.1.67</username>
+        <time>1769770786.77</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.1.67</username>
+        <time>1769770786.77</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="33c3ee06-aee8-4429-9ce1-e10435fe2b62">
       <type>pass</type>
       <interface>openvpn</interface>
@@ -921,8 +945,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1769770591.00</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1769770786.80</time>
   </revision>
   <OPNsense>
     <wireguard>
