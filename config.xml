@@ -715,10 +715,10 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       </created>
       <disabled>1</disabled>
     </rule>
-    <rule uuid="e0ff14f6-df63-4b2e-965a-fa00a9c73a42">
+    <rule uuid="666fe05d-fcd6-4a00-be0c-1d0df9515ff8">
       <type>pass</type>
-      <ipprotocol>inet</ipprotocol>
-      <descr>Default allow LAN to any rule</descr>
+      <ipprotocol>inet6</ipprotocol>
+      <descr>Default allow LAN IPv6 to any rule</descr>
       <interface>lan</interface>
       <source>
         <network>lan</network>
@@ -727,10 +727,10 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <any/>
       </destination>
     </rule>
-    <rule uuid="666fe05d-fcd6-4a00-be0c-1d0df9515ff8">
+    <rule uuid="e0ff14f6-df63-4b2e-965a-fa00a9c73a42">
       <type>pass</type>
-      <ipprotocol>inet6</ipprotocol>
-      <descr>Default allow LAN IPv6 to any rule</descr>
+      <ipprotocol>inet</ipprotocol>
+      <descr>Default allow LAN to any rule</descr>
       <interface>lan</interface>
       <source>
         <network>lan</network>
@@ -923,7 +923,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@192.168.1.67</username>
     <description>/firewall_rules.php made changes</description>
-    <time>1769770824.20</time>
+    <time>1769770827.78</time>
   </revision>
   <OPNsense>
     <wireguard>
