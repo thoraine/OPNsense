@@ -715,35 +715,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       </created>
       <disabled>1</disabled>
     </rule>
-    <rule uuid="e883743c-f0fc-4aa9-8c51-1e1e039686ac">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>sloppy state</statetype>
-      <descr>Route HTTPS traffic to zapret for specific hosts</descr>
-      <gateway>ZAPRET_GW</gateway>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <address>ZAPRET_CLIENTS</address>
-      </source>
-      <destination>
-        <any>1</any>
-        <port>443</port>
-      </destination>
-      <updated>
-        <username>root@192.168.1.67</username>
-        <time>1769685186.81</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@10.10.10.4</username>
-        <time>1769652798.46</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-      <disabled>1</disabled>
-    </rule>
     <rule uuid="e0ff14f6-df63-4b2e-965a-fa00a9c73a42">
       <type>pass</type>
       <ipprotocol>inet</ipprotocol>
@@ -790,6 +761,35 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <time>1769663182.00</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+    </rule>
+    <rule uuid="e883743c-f0fc-4aa9-8c51-1e1e039686ac">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>sloppy state</statetype>
+      <descr>Route HTTPS traffic to zapret for specific hosts</descr>
+      <gateway>ZAPRET_GW</gateway>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <address>ZAPRET_CLIENTS</address>
+      </source>
+      <destination>
+        <any>1</any>
+        <port>443</port>
+      </destination>
+      <updated>
+        <username>root@192.168.1.67</username>
+        <time>1769685186.81</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.10.4</username>
+        <time>1769652798.46</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+      <disabled>1</disabled>
     </rule>
     <rule uuid="45631b02-45a2-4ab2-b4a8-be626df0aa8c">
       <type>pass</type>
@@ -945,8 +945,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1769770812.08</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1769770815.85</time>
   </revision>
   <OPNsense>
     <wireguard>
