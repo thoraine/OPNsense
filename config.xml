@@ -799,14 +799,14 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <direction>in</direction>
       <quick>1</quick>
       <source>
-        <address>192.168.1.6</address>
+        <address>192.168.1.6/32</address>
       </source>
       <destination>
         <any>1</any>
       </destination>
       <updated>
         <username>root@192.168.1.67</username>
-        <time>1769770786.77</time>
+        <time>1769770812.05</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -946,7 +946,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@192.168.1.67</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1769770786.80</time>
+    <time>1769770812.08</time>
   </revision>
   <OPNsense>
     <wireguard>
