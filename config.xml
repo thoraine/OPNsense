@@ -611,7 +611,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <tag/>
       <tagged/>
       <poolopts/>
-      <associated-rule-id>nat_697aeace00f0b5.79553285</associated-rule-id>
+      <associated-rule-id/>
       <disabled>1</disabled>
       <target>192.168.1.6</target>
       <local-port>443</local-port>
@@ -738,29 +738,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <destination>
         <any/>
       </destination>
-    </rule>
-    <rule uuid="56e46dd9-e655-43e7-abeb-df2b68ee164c">
-      <type>pass</type>
-      <associated-rule-id>nat_697aeace00f0b5.79553285</associated-rule-id>
-      <source>
-        <address>ZAPRET_CLIENTS</address>
-      </source>
-      <interface>lan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>192.168.1.6</address>
-        <port>443</port>
-      </destination>
-      <disabled>1</disabled>
-      <descr>Route selected clients' HTTPS through DPI bypass</descr>
-      <category/>
-      <created>
-        <username>root@10.10.10.4</username>
-        <time>1769663182.00</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
     </rule>
     <rule uuid="e883743c-f0fc-4aa9-8c51-1e1e039686ac">
       <type>pass</type>
@@ -946,7 +923,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@192.168.1.67</username>
     <description>/firewall_rules.php made changes</description>
-    <time>1769770815.85</time>
+    <time>1769770824.20</time>
   </revision>
   <OPNsense>
     <wireguard>
