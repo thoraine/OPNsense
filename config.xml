@@ -924,7 +924,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@192.168.1.67</username>
     <description>/api/unbound/settings/addDot/ made changes</description>
-    <time>1769827722.80</time>
+    <time>1769827745.78</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1872,7 +1872,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1769827722.80" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1769827745.78" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1979,6 +1979,17 @@ ae0482c1428a7be801fa0e4ba7c8569c
           <type>dot</type>
           <domain/>
           <server>1.0.0.1</server>
+          <port>853</port>
+          <verify>cloudflare-dns.com</verify>
+          <forward_tcp_upstream>0</forward_tcp_upstream>
+          <forward_first>0</forward_first>
+          <description/>
+        </dot>
+        <dot uuid="1d60ec08-3c30-4317-a77b-e3d0fcb795ac">
+          <enabled>1</enabled>
+          <type>dot</type>
+          <domain/>
+          <server>2606:4700:4700::1111</server>
           <port>853</port>
           <verify>cloudflare-dns.com</verify>
           <forward_tcp_upstream>0</forward_tcp_upstream>
