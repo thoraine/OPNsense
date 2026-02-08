@@ -929,7 +929,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/etc/rc.filter_configure made changes</description>
-    <time>1770541101.28</time>
+    <time>1770541101.29</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1274,7 +1274,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
           </template>
         </templates>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1770541101.28" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1770541101.29" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -1389,6 +1389,23 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <expire/>
             <categories/>
             <description>CrowdSec (IPv4)</description>
+          </alias>
+          <alias uuid="62a0f8d1-2be6-4ea8-b7bb-6c4aad73dd5f">
+            <enabled>1</enabled>
+            <name>crowdsec6_blocklists</name>
+            <type>external</type>
+            <path_expression/>
+            <proto>IPv6</proto>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content/>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description>CrowdSec (IPv6)</description>
           </alias>
         </aliases>
       </Alias>
