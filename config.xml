@@ -927,9 +927,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1770541115.75</time>
+    <username>root@192.168.1.67</username>
+    <description>/api/crowdsec/general/set made changes</description>
+    <time>1770558026.18</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2383,7 +2383,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
     </Hostwatch>
     <radvd version="1.0.0" persisted_at="1770439317.29" description="Radvd configuration"/>
     <crowdsec>
-      <general version="1.0.12" persisted_at="1770541100.87" description="CrowdSec general configuration">
+      <general version="1.0.12" persisted_at="1770558026.17" description="CrowdSec general configuration">
         <agent_enabled>1</agent_enabled>
         <lapi_enabled>1</lapi_enabled>
         <firewall_bouncer_enabled>1</firewall_bouncer_enabled>
@@ -2393,7 +2393,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <rules_enabled>1</rules_enabled>
         <rules_log>0</rules_log>
         <rules_tag/>
-        <enroll_key/>
+        <enroll_key>cmldsha5t000z02ldg536vhka</enroll_key>
         <crowdsec_firewall_verbose>0</crowdsec_firewall_verbose>
       </general>
     </crowdsec>
