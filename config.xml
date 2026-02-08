@@ -82,11 +82,6 @@
     <disablenatreflection>yes</disablenatreflection>
     <usevirtualterminal>1</usevirtualterminal>
     <disableconsolemenu>1</disableconsolemenu>
-    <disablevlanhwfilter>1</disablevlanhwfilter>
-    <disablechecksumoffloading>1</disablechecksumoffloading>
-    <disablesegmentationoffloading>1</disablesegmentationoffloading>
-    <disablelargereceiveoffloading>1</disablelargereceiveoffloading>
-    <ipv6allow>1</ipv6allow>
     <powerd_ac_mode>hadp</powerd_ac_mode>
     <powerd_battery_mode>hadp</powerd_battery_mode>
     <powerd_normal_mode>hadp</powerd_normal_mode>
@@ -603,36 +598,45 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <disabled>1</disabled>
       </rule>
     </outbound>
-    <rule>
-      <protocol>tcp</protocol>
+    <rule uuid="575b65f4-b1ac-4b14-830b-268ad10cae5a">
+      <sequence>100</sequence>
+      <disabled>1</disabled>
+      <nordr>0</nordr>
       <interface>lan</interface>
-      <category/>
       <ipprotocol>inet</ipprotocol>
+      <protocol>tcp</protocol>
+      <source>
+        <network>ZAPRET_CLIENTS</network>
+        <port/>
+        <not>0</not>
+      </source>
+      <destination>
+        <network/>
+        <port>443</port>
+        <not>0</not>
+      </destination>
+      <target>192.168.1.6</target>
+      <local-port>443</local-port>
+      <poolopts/>
+      <log>0</log>
+      <category/>
       <descr>Route selected clients' HTTPS through DPI bypass</descr>
       <tag/>
       <tagged/>
-      <poolopts/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass/>
       <associated-rule-id/>
-      <disabled>1</disabled>
-      <target>192.168.1.6</target>
-      <local-port>443</local-port>
-      <source>
-        <address>ZAPRET_CLIENTS</address>
-      </source>
-      <destination>
-        <any>1</any>
-        <port>443</port>
-      </destination>
-      <updated>
-        <username>root@10.10.10.4</username>
-        <time>1769663182.00</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
       <created>
         <username>root@10.10.10.4</username>
         <time>1769663182.00</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <updated>
+        <username>root@10.10.10.4</username>
+        <time>1769663182.00</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
     </rule>
   </nat>
   <filter>
@@ -924,8 +928,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1770439200.01</time>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1770541100.87</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1394,7 +1398,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <activeTimeout>1800</activeTimeout>
       <inactiveTimeout>15</inactiveTimeout>
     </Netflow>
-    <IDS version="1.1.1" persisted_at="1761369101.01">
+    <IDS version="1.1.2" persisted_at="1770439317.89" description="Intrusion detection">
       <rules>
         <rule uuid="ff1bf4b4-4800-4e6f-95e8-04d5ea8797d2">
           <sid>2000536</sid>
@@ -1523,7 +1527,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <fileTags/>
       <general>
         <enabled>1</enabled>
-        <ips>0</ips>
+        <mode>pcap</mode>
+        <divert_listeners>1</divert_listeners>
         <promisc>0</promisc>
         <interfaces>wan</interfaces>
         <homenet>192.168.0.0/16,10.0.0.0/8,172.16.0.0/12</homenet>
@@ -1560,6 +1565,17 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <loopbacks version="1.0.0" persisted_at="1757422061.15"/>
       <neighbors version="1.0.0" persisted_at="1757422061.15"/>
       <vxlans version="1.0.2" persisted_at="1757422061.18"/>
+      <settings version="1.0.0" persisted_at="1770439317.35" description="Global interface settings">
+        <disablechecksumoffloading>1</disablechecksumoffloading>
+        <disablesegmentationoffloading>1</disablesegmentationoffloading>
+        <disablelargereceiveoffloading>1</disablelargereceiveoffloading>
+        <disablevlanhwfilter>1</disablevlanhwfilter>
+        <disableipv6>0</disableipv6>
+        <dhcp6_norelease>0</dhcp6_norelease>
+        <dhcp6_debug>0</dhcp6_debug>
+        <dhcp6_duid/>
+        <dhcp6_ratimeout>10</dhcp6_ratimeout>
+      </settings>
     </Interfaces>
     <Kea>
       <ctrl_agent version="0.0.1" persisted_at="1757422061.18">
@@ -2331,6 +2347,22 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <interface/>
       </general>
     </Hostwatch>
+    <radvd version="1.0.0" persisted_at="1770439317.29" description="Radvd configuration"/>
+    <crowdsec>
+      <general version="1.0.12" persisted_at="1770541100.87" description="CrowdSec general configuration">
+        <agent_enabled>1</agent_enabled>
+        <lapi_enabled>1</lapi_enabled>
+        <firewall_bouncer_enabled>1</firewall_bouncer_enabled>
+        <lapi_manual_configuration>0</lapi_manual_configuration>
+        <lapi_listen_address>127.0.0.1</lapi_listen_address>
+        <lapi_listen_port>8080</lapi_listen_port>
+        <rules_enabled>1</rules_enabled>
+        <rules_log>0</rules_log>
+        <rules_tag/>
+        <enroll_key/>
+        <crowdsec_firewall_verbose>0</crowdsec_firewall_verbose>
+      </general>
+    </crowdsec>
   </OPNsense>
   <hasync version="1.0.2" persisted_at="1757422060.87">
     <disablepreempt>0</disablepreempt>
