@@ -929,7 +929,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>root@10.10.10.2</username>
     <description>/api/zenarmor/status/service_boot made changes</description>
-    <time>1770824453.76</time>
+    <time>1770824456.62</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2765,7 +2765,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       </hosts>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1770824453.76" description="OPNsense Zenarmor Application">
+    <Zenarmor version="0.0.0" persisted_at="1770824456.62" description="OPNsense Zenarmor Application">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
@@ -2878,7 +2878,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       </anonymize>
       <onboot>
         <eastpect>NO</eastpect>
-        <elasticsearch>YES</elasticsearch>
+        <elasticsearch>NO</elasticsearch>
         <mongod>NO</mongod>
         <senpai>YES</senpai>
       </onboot>
