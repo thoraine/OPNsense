@@ -653,6 +653,46 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
     </rule>
+    <rule uuid="ca2a0907-9d79-4e65-80aa-50f450669f2b">
+      <sequence>200</sequence>
+      <disabled>0</disabled>
+      <nordr>0</nordr>
+      <interface>wan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <protocol>tcp</protocol>
+      <source>
+        <network/>
+        <port/>
+        <not>0</not>
+      </source>
+      <destination>
+        <network>wanip</network>
+        <port>443</port>
+        <not>0</not>
+      </destination>
+      <target>192.168.1.7</target>
+      <local-port>443</local-port>
+      <poolopts/>
+      <log>0</log>
+      <category/>
+      <descr>forward https traffic to aiostreams</descr>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass>rule</pass>
+      <associated-rule-id/>
+      <created>
+        <username>root</username>
+        <time>1771156763.65</time>
+        <description>/api/api.php made changes</description>
+      </created>
+      <updated>
+        <username>root</username>
+        <time>1771156763.65</time>
+        <description>/api/api.php made changes</description>
+      </updated>
+    </rule>
   </nat>
   <filter>
     <rule uuid="28e52c15-a8ea-41f2-b1e0-53a28eb8d9d2">
@@ -943,8 +983,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/firewall/filter/toggle_rule/78564356-ab67-4a99-83c5-b3d8011a8c66 made changes</description>
-    <time>1771156645.27</time>
+    <description>/api/firewall/d_nat/add_rule/ made changes</description>
+    <time>1771156763.66</time>
   </revision>
   <OPNsense>
     <wireguard>
