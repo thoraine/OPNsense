@@ -943,8 +943,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/firewall/filter/add_rule/ made changes</description>
-    <time>1771155898.66</time>
+    <description>/api/firewall/filter/move_rule_before/78564356-ab67-4a99-83c5-b3d8011a8c66/5c38ee1d-1605-498b-9578-b93fe2ac2e24 made changes</description>
+    <time>1771155920.41</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1427,7 +1427,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <Category version="1.0.0" persisted_at="1757422061.01">
         <categories/>
       </Category>
-      <Filter version="1.0.4" persisted_at="1771155898.65" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1771155920.41" description="Firewall rules (new)">
         <rules>
           <rule uuid="28e52c15-a8ea-41f2-b1e0-53a28eb8d9d2">
             <enabled>1</enabled>
@@ -2038,7 +2038,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <enabled>1</enabled>
             <statetype>keep</statetype>
             <state-policy/>
-            <sequence>301</sequence>
+            <sequence>6</sequence>
             <action>pass</action>
             <quick>1</quick>
             <interfacenot>0</interfacenot>
