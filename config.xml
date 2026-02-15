@@ -943,8 +943,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1771146005.64</time>
+    <description>/api/firewall/filter/add_rule/ made changes</description>
+    <time>1771155898.66</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1427,7 +1427,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <Category version="1.0.0" persisted_at="1757422061.01">
         <categories/>
       </Category>
-      <Filter version="1.0.4" persisted_at="1770558714.98" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1771155898.65" description="Firewall rules (new)">
         <rules>
           <rule uuid="28e52c15-a8ea-41f2-b1e0-53a28eb8d9d2">
             <enabled>1</enabled>
@@ -2033,6 +2033,61 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <shaper1/>
             <shaper2/>
             <description>Block Accessing CrowdSec Blacklist</description>
+          </rule>
+          <rule uuid="78564356-ab67-4a99-83c5-b3d8011a8c66">
+            <enabled>1</enabled>
+            <statetype>keep</statetype>
+            <state-policy/>
+            <sequence>301</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>wan</interface>
+            <direction>in</direction>
+            <ipprotocol>inet</ipprotocol>
+            <protocol>TCP/UDP</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>any</source_net>
+            <source_not>0</source_not>
+            <source_port>443</source_port>
+            <destination_net>192.168.1.7</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port>443</destination_port>
+            <divert-to/>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>0</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description>Forward HTTPS to aiostreams</description>
           </rule>
         </rules>
         <snatrules/>
