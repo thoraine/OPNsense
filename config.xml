@@ -735,7 +735,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     </rule>
     <rule uuid="210e9e45-7fd0-454b-952b-7bc39c6d7d61">
       <sequence>200</sequence>
-      <disabled>1</disabled>
+      <disabled>0</disabled>
       <nordr>0</nordr>
       <interface>wan</interface>
       <ipprotocol>inet</ipprotocol>
@@ -1063,8 +1063,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/firewall/d_nat/toggle_rule/ca2a0907-9d79-4e65-80aa-50f450669f2b made changes</description>
-    <time>1771246245.46</time>
+    <description>/api/firewall/d_nat/toggle_rule/210e9e45-7fd0-454b-952b-7bc39c6d7d61 made changes</description>
+    <time>1771246255.24</time>
   </revision>
   <OPNsense>
     <wireguard>
