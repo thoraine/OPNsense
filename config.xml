@@ -1063,8 +1063,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/firewall/d_nat/toggle_rule/210e9e45-7fd0-454b-952b-7bc39c6d7d61 made changes</description>
-    <time>1771246255.24</time>
+    <description>/api/firewall/filter/toggle_rule/186507dc-c94b-4c99-bffd-b889a53c0dad made changes</description>
+    <time>1771246260.41</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1541,7 +1541,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <Category version="1.0.0" persisted_at="1757422061.01">
         <categories/>
       </Category>
-      <Filter version="1.0.4" persisted_at="1771225493.03" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1771246260.41" description="Firewall rules (new)">
         <rules>
           <rule uuid="28e52c15-a8ea-41f2-b1e0-53a28eb8d9d2">
             <enabled>1</enabled>
@@ -1984,7 +1984,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <description>Allow HTTPS in</description>
           </rule>
           <rule uuid="186507dc-c94b-4c99-bffd-b889a53c0dad">
-            <enabled>0</enabled>
+            <enabled>1</enabled>
             <statetype>keep</statetype>
             <state-policy/>
             <sequence>26</sequence>
