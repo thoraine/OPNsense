@@ -655,7 +655,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     </rule>
     <rule uuid="ca2a0907-9d79-4e65-80aa-50f450669f2b">
       <sequence>200</sequence>
-      <disabled>1</disabled>
+      <disabled>0</disabled>
       <nordr>0</nordr>
       <interface>wan</interface>
       <ipprotocol>inet</ipprotocol>
@@ -673,7 +673,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <target>192.168.1.7</target>
       <local-port>443</local-port>
       <poolopts/>
-      <log>0</log>
+      <log>1</log>
       <category/>
       <descr>forward https traffic to aiostreams</descr>
       <tag/>
@@ -689,7 +689,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       </created>
       <updated>
         <username>root</username>
-        <time>1771157345.55</time>
+        <time>1771216318.31</time>
         <description>/api/api.php made changes</description>
       </updated>
     </rule>
@@ -1022,9 +1022,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@10.10.10.4</username>
-    <description>/api/firewall/filter/del_rule/e883743c-f0fc-4aa9-8c51-1e1e039686ac made changes</description>
-    <time>1771206168.64</time>
+    <username>root@10.10.10.2</username>
+    <description>/api/firewall/d_nat/set_rule/ca2a0907-9d79-4e65-80aa-50f450669f2b made changes</description>
+    <time>1771216318.31</time>
   </revision>
   <OPNsense>
     <wireguard>
