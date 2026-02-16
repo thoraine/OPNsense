@@ -1063,8 +1063,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/firewall/filter/move_rule_before/186507dc-c94b-4c99-bffd-b889a53c0dad/28e52c15-a8ea-41f2-b1e0-53a28eb8d9d2 made changes</description>
-    <time>1771217917.91</time>
+    <description>/api/diagnostics/lvtemplate/del_item/e4ef8daa-d496-415b-ba52-9f556bb3db43 made changes</description>
+    <time>1771217988.99</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1400,14 +1400,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
     </cron>
     <DHCRelay version="1.0.1" persisted_at="1757422060.90"/>
     <Firewall>
-      <Lvtemplate version="0.0.1" persisted_at="1757463946.17">
-        <templates>
-          <template uuid="e4ef8daa-d496-415b-ba52-9f556bb3db43">
-            <name>ping goog</name>
-            <or>0</or>
-            <filters>dst~8.8.8.8</filters>
-          </template>
-        </templates>
+      <Lvtemplate version="0.0.1" persisted_at="1771217988.99" description="Firewall Live View filter templates">
+        <templates/>
       </Lvtemplate>
       <Alias version="1.0.1" persisted_at="1770541101.29" description="Firewall aliases">
         <geoip>
