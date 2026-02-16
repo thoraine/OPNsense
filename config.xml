@@ -1023,8 +1023,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/api/firewall/filter/del_rule/45631b02-45a2-4ab2-b4a8-be626df0aa8c made changes</description>
-    <time>1771206168.58</time>
+    <description>/api/firewall/filter/del_rule/1bf851b4-2c2f-480d-afcf-a30ab4d18690 made changes</description>
+    <time>1771206168.61</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1507,7 +1507,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <Category version="1.0.0" persisted_at="1757422061.01">
         <categories/>
       </Category>
-      <Filter version="1.0.4" persisted_at="1771206168.58" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1771206168.61" description="Firewall rules (new)">
         <rules>
           <rule uuid="28e52c15-a8ea-41f2-b1e0-53a28eb8d9d2">
             <enabled>1</enabled>
@@ -1563,61 +1563,6 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <shaper1/>
             <shaper2/>
             <description>Allow WireGuard in</description>
-          </rule>
-          <rule uuid="1bf851b4-2c2f-480d-afcf-a30ab4d18690">
-            <enabled>0</enabled>
-            <statetype>keep</statetype>
-            <state-policy/>
-            <sequence>21</sequence>
-            <action>pass</action>
-            <quick>1</quick>
-            <interfacenot>0</interfacenot>
-            <interface>wan</interface>
-            <direction>in</direction>
-            <ipprotocol>inet</ipprotocol>
-            <protocol>any</protocol>
-            <icmptype/>
-            <icmp6type/>
-            <source_net>any</source_net>
-            <source_not>0</source_not>
-            <source_port/>
-            <destination_net>192.168.1.6</destination_net>
-            <destination_not>0</destination_not>
-            <destination_port/>
-            <divert-to/>
-            <gateway/>
-            <replyto/>
-            <disablereplyto>0</disablereplyto>
-            <log>0</log>
-            <allowopts>0</allowopts>
-            <nosync>0</nosync>
-            <nopfsync>0</nopfsync>
-            <statetimeout/>
-            <udp-first/>
-            <udp-multiple/>
-            <udp-single/>
-            <max-src-nodes/>
-            <max-src-states/>
-            <max-src-conn/>
-            <max/>
-            <max-src-conn-rate/>
-            <max-src-conn-rates/>
-            <overload/>
-            <adaptivestart/>
-            <adaptiveend/>
-            <prio/>
-            <set-prio/>
-            <set-prio-low/>
-            <tag/>
-            <tagged/>
-            <tcpflags1/>
-            <tcpflags2/>
-            <categories/>
-            <sched/>
-            <tos/>
-            <shaper1/>
-            <shaper2/>
-            <description/>
           </rule>
           <rule uuid="e883743c-f0fc-4aa9-8c51-1e1e039686ac">
             <enabled>0</enabled>
