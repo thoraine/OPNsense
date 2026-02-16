@@ -679,7 +679,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <tag/>
       <tagged/>
       <nosync>0</nosync>
-      <natreflection/>
+      <natreflection>purenat</natreflection>
       <pass/>
       <associated-rule-id/>
       <created>
@@ -689,7 +689,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       </created>
       <updated>
         <username>root</username>
-        <time>1771217125.88</time>
+        <time>1771218508.50</time>
         <description>/api/api.php made changes</description>
       </updated>
     </rule>
@@ -1063,8 +1063,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/firewall/filter/set_rule/186507dc-c94b-4c99-bffd-b889a53c0dad made changes</description>
-    <time>1771218251.09</time>
+    <description>/api/firewall/d_nat/set_rule/ca2a0907-9d79-4e65-80aa-50f450669f2b made changes</description>
+    <time>1771218508.50</time>
   </revision>
   <OPNsense>
     <wireguard>
