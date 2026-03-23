@@ -1103,8 +1103,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/firewall/d_nat/set_rule/4a7f1aad-8faf-47ed-b028-29a97164cfdf made changes</description>
-    <time>1774275716.10</time>
+    <description>/api/firewall/filter/add_rule/ made changes</description>
+    <time>1774275802.72</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1581,7 +1581,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <Category version="1.0.0" persisted_at="1757422061.01">
         <categories/>
       </Category>
-      <Filter version="1.0.4" persisted_at="1771248628.42" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1774275802.72" description="Firewall rules (new)">
         <rules>
           <rule uuid="28e52c15-a8ea-41f2-b1e0-53a28eb8d9d2">
             <enabled>1</enabled>
@@ -1631,6 +1631,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <tagged/>
             <tcpflags1/>
             <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
             <categories/>
             <sched/>
             <tos/>
@@ -1686,6 +1687,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <tagged/>
             <tcpflags1/>
             <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
             <categories/>
             <sched/>
             <tos/>
@@ -1741,6 +1743,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <tagged/>
             <tcpflags1/>
             <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
             <categories/>
             <sched/>
             <tos/>
@@ -1796,6 +1799,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <tagged/>
             <tcpflags1/>
             <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
             <categories/>
             <sched/>
             <tos/>
@@ -1851,6 +1855,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <tagged/>
             <tcpflags1/>
             <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
             <categories/>
             <sched/>
             <tos/>
@@ -1906,6 +1911,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <tagged/>
             <tcpflags1/>
             <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
             <categories/>
             <sched/>
             <tos/>
@@ -1961,6 +1967,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <tagged/>
             <tcpflags1/>
             <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
             <categories/>
             <sched/>
             <tos/>
@@ -2016,6 +2023,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <tagged/>
             <tcpflags1/>
             <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
             <categories/>
             <sched/>
             <tos/>
@@ -2071,12 +2079,69 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <tagged/>
             <tcpflags1/>
             <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
             <categories/>
             <sched/>
             <tos/>
             <shaper1/>
             <shaper2/>
             <description>Allow HTTP in</description>
+          </rule>
+          <rule uuid="8799c1b6-b024-4f71-b038-b733ff20a8ef">
+            <enabled>1</enabled>
+            <statetype>keep</statetype>
+            <state-policy/>
+            <sequence>301</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>wan</interface>
+            <direction>in</direction>
+            <ipprotocol>inet</ipprotocol>
+            <protocol>TCP/UDP</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>any</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>wanip</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port>8000 - 8010</destination_port>
+            <divert-to/>
+            <gateway>WAN_DHCP</gateway>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>0</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <tcpflags_any>0</tcpflags_any>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description>Allow Parsec in</description>
           </rule>
         </rules>
         <snatrules/>
