@@ -786,11 +786,11 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <not>0</not>
       </source>
       <destination>
-        <network>192.168.1.67</network>
+        <network>wanip</network>
         <port>8000 - 8010</port>
         <not>0</not>
       </destination>
-      <target/>
+      <target>192.168.1.67</target>
       <local-port/>
       <poolopts/>
       <log>0</log>
@@ -800,7 +800,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <tagged/>
       <nosync>0</nosync>
       <natreflection/>
-      <pass/>
+      <pass>rule</pass>
       <associated-rule-id/>
       <created>
         <username>root</username>
@@ -809,7 +809,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       </created>
       <updated>
         <username>root</username>
-        <time>1774275587.27</time>
+        <time>1774275665.55</time>
         <description>/api/api.php made changes</description>
       </updated>
     </rule>
@@ -1103,8 +1103,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/firewall/d_nat/add_rule/ made changes</description>
-    <time>1774275587.27</time>
+    <description>/api/firewall/d_nat/set_rule/4a7f1aad-8faf-47ed-b028-29a97164cfdf made changes</description>
+    <time>1774275665.55</time>
   </revision>
   <OPNsense>
     <wireguard>
