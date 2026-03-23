@@ -1103,8 +1103,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/routing/settings/del_gateway/74836dd0-b995-438e-983d-23b59573d353 made changes</description>
-    <time>1774294821.20</time>
+    <description>/api/routing/settings/del_gateway/ba7364ab-7e4d-4d04-8957-763a8b557c53 made changes</description>
+    <time>1774294822.85</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2570,34 +2570,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <path/>
       </test>
     </monit>
-    <Gateways version="1.0.0" persisted_at="1774294821.20" description="Gateways configuration">
-      <gateway_item uuid="ba7364ab-7e4d-4d04-8957-763a8b557c53">
-        <disabled>1</disabled>
-        <name>WARP_GW</name>
-        <descr/>
-        <interface>opt4</interface>
-        <ipprotocol>inet</ipprotocol>
-        <gateway>172.16.0.1</gateway>
-        <defaultgw>0</defaultgw>
-        <fargw>1</fargw>
-        <monitor_disable>0</monitor_disable>
-        <monitor_noroute>0</monitor_noroute>
-        <monitor_killstates>0</monitor_killstates>
-        <monitor_killstates_priority>0</monitor_killstates_priority>
-        <monitor>172.16.0.1</monitor>
-        <force_down>0</force_down>
-        <priority>255</priority>
-        <weight>1</weight>
-        <latencylow/>
-        <latencyhigh/>
-        <losslow/>
-        <losshigh/>
-        <interval/>
-        <time_period/>
-        <loss_interval/>
-        <data_length/>
-      </gateway_item>
-    </Gateways>
+    <Gateways version="1.0.0" persisted_at="1774294822.85" description="Gateways configuration"/>
     <Syslog version="1.0.2" persisted_at="1757422061.20">
       <general>
         <enabled>1</enabled>
