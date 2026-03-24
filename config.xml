@@ -813,6 +813,46 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <description>/api/api.php made changes</description>
       </updated>
     </rule>
+    <rule uuid="5cfdcf86-3920-48a6-a048-c5a3346a01d7">
+      <sequence>400</sequence>
+      <disabled>0</disabled>
+      <nordr>0</nordr>
+      <interface>wan</interface>
+      <ipprotocol/>
+      <protocol>tcp/udp</protocol>
+      <source>
+        <network/>
+        <port/>
+        <not>0</not>
+      </source>
+      <destination>
+        <network>wanip</network>
+        <port>9000-9010</port>
+        <not>0</not>
+      </destination>
+      <target>192.168.1.67</target>
+      <local-port/>
+      <poolopts/>
+      <log>0</log>
+      <category/>
+      <descr>Parsec Forwarding</descr>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection/>
+      <pass>rule</pass>
+      <associated-rule-id/>
+      <created>
+        <username>root</username>
+        <time>1774352349.37</time>
+        <description>/api/api.php made changes</description>
+      </created>
+      <updated>
+        <username>root</username>
+        <time>1774352349.37</time>
+        <description>/api/api.php made changes</description>
+      </updated>
+    </rule>
   </nat>
   <filter>
     <rule uuid="28e52c15-a8ea-41f2-b1e0-53a28eb8d9d2">
@@ -1103,8 +1143,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/firewall/filter/add_rule/ made changes</description>
-    <time>1774352332.80</time>
+    <description>/api/firewall/d_nat/add_rule/ made changes</description>
+    <time>1774352349.37</time>
   </revision>
   <OPNsense>
     <wireguard>
