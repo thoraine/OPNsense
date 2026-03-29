@@ -234,7 +234,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <networks/>
     </wireguard>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1771146005.64" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.9" persisted_at="1774812651.31" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -266,6 +266,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <default_fw_rules>1</default_fw_rules>
       <reply_delay/>
       <enable_ra>0</enable_ra>
+      <host_ping>1</host_ping>
       <nosync>0</nosync>
       <log_dhcp>0</log_dhcp>
       <log_quiet>0</log_quiet>
@@ -1143,8 +1144,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>(root)</username>
-    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1774812644.61</time>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1774812651.45</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2481,6 +2482,13 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <pd_pools/>
         <ha_peers/>
       </dhcp6>
+      <ddns version="1.0.0" persisted_at="1774812651.35" description="Kea Dynamic DNS configuration">
+        <general>
+          <enabled>0</enabled>
+          <server_ip>127.0.0.1</server_ip>
+          <server_port>53001</server_port>
+        </general>
+      </ddns>
     </Kea>
     <monit version="1.0.14" persisted_at="1757512727.21">
       <general>
