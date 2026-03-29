@@ -155,7 +155,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <descr>WAN</descr>
       <enable>1</enable>
       <lock>1</lock>
-      <spoofmac/>
+      <spoofmac>c8:ff:bf:0e:6b:af</spoofmac>
       <blockpriv>1</blockpriv>
       <blockbogons>1</blockbogons>
       <ipaddr>dhcp</ipaddr>
@@ -177,11 +177,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <adv_dhcp_config_advanced/>
       <adv_dhcp_config_file_override/>
       <adv_dhcp_config_file_override_path/>
-      <subnet/>
-      <gateway/>
-      <ipaddrv6/>
-      <subnetv6/>
-      <gatewayv6/>
     </wan>
     <lan>
       <if>vtnet0</if>
@@ -1148,8 +1143,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/routing/settings/del_gateway/6a656971-644a-47a1-9005-06f160c58b79 made changes</description>
-    <time>1774803158.96</time>
+    <description>/interfaces.php made changes</description>
+    <time>1774803404.59</time>
   </revision>
   <OPNsense>
     <wireguard>
