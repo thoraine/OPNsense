@@ -151,7 +151,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </system>
   <interfaces>
     <wan>
-      <if>igc0</if>
+      <if>vtnet1</if>
       <descr>WAN</descr>
       <enable>1</enable>
       <lock>1</lock>
@@ -1142,9 +1142,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@10.10.10.4</username>
-    <description>/api/cron/settings/toggle_job/6246decc-ab9e-4d86-a5dd-e396732fbd95 made changes</description>
-    <time>1774581524.39</time>
+    <username>root@192.168.1.67</username>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1774801702.21</time>
   </revision>
   <OPNsense>
     <wireguard>
