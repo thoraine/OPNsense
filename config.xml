@@ -177,6 +177,11 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <adv_dhcp_config_advanced/>
       <adv_dhcp_config_file_override/>
       <adv_dhcp_config_file_override_path/>
+      <subnet/>
+      <gateway/>
+      <ipaddrv6/>
+      <subnetv6/>
+      <gatewayv6/>
     </wan>
     <lan>
       <if>vtnet0</if>
@@ -1142,9 +1147,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.67</username>
-    <description>/api/routing/settings/set_gateway/6a656971-644a-47a1-9005-06f160c58b79 made changes</description>
-    <time>1774801827.70</time>
+    <username>(root)</username>
+    <description>wan configuration from console menu</description>
+    <time>1774802480.34</time>
   </revision>
   <OPNsense>
     <wireguard>
