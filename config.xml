@@ -1143,8 +1143,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/routing/settings/add_gateway/ made changes</description>
-    <time>1774801790.85</time>
+    <description>/api/routing/settings/set_gateway/6a656971-644a-47a1-9005-06f160c58b79 made changes</description>
+    <time>1774801827.70</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2666,17 +2666,17 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <path/>
       </test>
     </monit>
-    <Gateways version="1.0.0" persisted_at="1774801790.85" description="Gateways configuration">
+    <Gateways version="1.0.0" persisted_at="1774801827.70" description="Gateways configuration">
       <gateway_item uuid="6a656971-644a-47a1-9005-06f160c58b79">
         <disabled>0</disabled>
         <name>WAN_GW</name>
         <descr/>
         <interface>wan</interface>
         <ipprotocol>inet</ipprotocol>
-        <gateway/>
-        <defaultgw>0</defaultgw>
+        <gateway>158.140.135.188</gateway>
+        <defaultgw>1</defaultgw>
         <fargw>0</fargw>
-        <monitor_disable>1</monitor_disable>
+        <monitor_disable>0</monitor_disable>
         <monitor_noroute>0</monitor_noroute>
         <monitor_killstates>0</monitor_killstates>
         <monitor_killstates_priority>0</monitor_killstates_priority>
