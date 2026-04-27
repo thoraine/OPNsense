@@ -234,7 +234,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <networks/>
     </wireguard>
   </interfaces>
-  <dnsmasq version="1.0.9" persisted_at="1777274002.62" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.9" persisted_at="1777274004.20" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -1144,8 +1144,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/api/dnsmasq/settings/add_host/ made changes</description>
-    <time>1777274002.62</time>
+    <description>/api/dnsmasq/settings/set made changes</description>
+    <time>1777274004.20</time>
   </revision>
   <OPNsense>
     <wireguard>
