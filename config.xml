@@ -1144,8 +1144,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>(root)</username>
-    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1777277452.21</time>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1777277457.35</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1432,7 +1432,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         </StaticKey>
       </StaticKeys>
     </OpenVPN>
-    <captiveportal version="1.0.4" persisted_at="1757422060.90">
+    <captiveportal version="1.0.5" persisted_at="1777277457.14" description="Captive portal application model">
       <zones/>
       <templates/>
     </captiveportal>
@@ -2704,7 +2704,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.14" persisted_at="1774295637.67" description="Unbound configuration">
+    <unboundplus version="1.0.15" persisted_at="1777277457.31" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -2732,6 +2732,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <prefetch>0</prefetch>
         <prefetchkey>0</prefetchkey>
         <dnssecstripped>0</dnssecstripped>
+        <belownxdomain>1</belownxdomain>
         <aggressivensec>1</aggressivensec>
         <serveexpired>0</serveexpired>
         <serveexpiredreplyttl/>
