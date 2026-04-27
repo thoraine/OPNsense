@@ -234,7 +234,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <networks/>
     </wireguard>
   </interfaces>
-  <dnsmasq version="1.0.9" persisted_at="1777274004.20" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.9" persisted_at="1777274020.98" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -426,7 +426,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <host>unifios</host>
       <domain>chewynetwork.home.arpa</domain>
       <local>1</local>
-      <ip>192.168.1.116</ip>
+      <ip>192.168.1.5</ip>
       <cnames/>
       <client_id>ff:11:d2:22:c0:00:01:00:01:31:81:91:f0:bc:24:11:d2:22:c0</client_id>
       <hwaddr>bc:24:11:d2:22:c0</hwaddr>
@@ -1144,8 +1144,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.4</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1777274004.20</time>
+    <description>/api/dnsmasq/settings/set_host/d2462b7b-0770-4592-bbab-7e87a779b871 made changes</description>
+    <time>1777274020.98</time>
   </revision>
   <OPNsense>
     <wireguard>
