@@ -234,7 +234,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <networks/>
     </wireguard>
   </interfaces>
-  <dnsmasq version="1.0.9" persisted_at="1774812651.31" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.9" persisted_at="1777272687.15" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -284,21 +284,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <ignore>0</ignore>
       <set_tag/>
       <descr>AdGuard</descr>
-      <comments/>
-      <aliases/>
-    </hosts>
-    <hosts uuid="8852b8c7-43b8-42f6-a5b2-f33a7ee3a215">
-      <host>unifi</host>
-      <domain>chewynetwork.home.arpa</domain>
-      <local>1</local>
-      <ip>192.168.1.5</ip>
-      <cnames/>
-      <client_id/>
-      <hwaddr/>
-      <lease_time/>
-      <ignore>0</ignore>
-      <set_tag/>
-      <descr>Unifi Controller</descr>
       <comments/>
       <aliases/>
     </hosts>
@@ -1143,9 +1128,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(root)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1774812651.45</time>
+    <username>root@10.10.10.4</username>
+    <description>/api/dnsmasq/settings/del_host/8852b8c7-43b8-42f6-a5b2-f33a7ee3a215 made changes</description>
+    <time>1777272687.15</time>
   </revision>
   <OPNsense>
     <wireguard>
