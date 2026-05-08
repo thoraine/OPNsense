@@ -1145,7 +1145,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1777277457.35</time>
+    <time>1778235972.32</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3171,7 +3171,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <interface/>
       </general>
     </Hostwatch>
-    <radvd version="1.0.0" persisted_at="1770439317.29" description="Radvd configuration"/>
+    <radvd version="1.0.1" persisted_at="1778235971.70" description="Radvd configuration"/>
     <crowdsec>
       <general version="1.0.12" persisted_at="1770558026.17" description="CrowdSec general configuration">
         <agent_enabled>1</agent_enabled>
