@@ -1144,8 +1144,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.209</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1778994754.95</time>
+    <description>/api/firewall/filter/toggle_rule/8799c1b6-b024-4f71-b038-b733ff20a8ef made changes</description>
+    <time>1778994832.84</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1594,7 +1594,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <Category version="1.0.0" persisted_at="1757422061.01">
         <categories/>
       </Category>
-      <Filter version="1.0.4" persisted_at="1774352332.80" description="Firewall rules (new)">
+      <Filter version="1.0.4" persisted_at="1778994832.84" description="Firewall rules (new)">
         <rules>
           <rule uuid="28e52c15-a8ea-41f2-b1e0-53a28eb8d9d2">
             <enabled>1</enabled>
@@ -2101,7 +2101,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <description>Allow HTTP in</description>
           </rule>
           <rule uuid="8799c1b6-b024-4f71-b038-b733ff20a8ef">
-            <enabled>1</enabled>
+            <enabled>0</enabled>
             <statetype>keep</statetype>
             <state-policy/>
             <sequence>301</sequence>
