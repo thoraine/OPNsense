@@ -1144,12 +1144,12 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.209</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1778993921.10</time>
+    <description>/api/wireguard/client/add_client_builder made changes</description>
+    <time>1778993949.00</time>
   </revision>
   <OPNsense>
     <wireguard>
-      <client version="1.0.0" persisted_at="1778993918.82" description="WireGuard peer configuration">
+      <client version="1.0.0" persisted_at="1778993949.00" description="WireGuard peer configuration">
         <clients>
           <client uuid="bbbd4860-3761-4997-aa52-90fe1c325858">
             <enabled>1</enabled>
@@ -1181,12 +1181,22 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
             <serverport>2408</serverport>
             <keepalive>25</keepalive>
           </client>
+          <client uuid="59a16af6-4d66-47c5-86ce-17a4fc1b611f">
+            <enabled>1</enabled>
+            <name>Laptop</name>
+            <pubkey>k9uj8PyVJYGOAR9rlBHeaHomIejDmvkb/IxR6gCj1Dk=</pubkey>
+            <psk/>
+            <tunneladdress>10.10.10.3/32</tunneladdress>
+            <serveraddress/>
+            <serverport/>
+            <keepalive/>
+          </client>
         </clients>
       </client>
       <general version="0.0.1" persisted_at="1778993921.10" description="WireGuard configuration">
         <enabled>1</enabled>
       </general>
-      <server version="1.0.1" persisted_at="1778993918.82" description="WireGuard instance configuration">
+      <server version="1.0.1" persisted_at="1778993949.00" description="WireGuard instance configuration">
         <servers>
           <server uuid="48097eef-aed3-4ea8-8ee5-9fbe38a96896">
             <enabled>1</enabled>
@@ -1201,7 +1211,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
             <disableroutes>0</disableroutes>
             <gateway/>
             <carp_depend_on/>
-            <peers>bbbd4860-3761-4997-aa52-90fe1c325858,209f420d-6288-4b8f-b36b-dfa4d0d4e2c0</peers>
+            <peers>bbbd4860-3761-4997-aa52-90fe1c325858,209f420d-6288-4b8f-b36b-dfa4d0d4e2c0,59a16af6-4d66-47c5-86ce-17a4fc1b611f</peers>
             <debug>0</debug>
             <endpoint>158.140.135.1:51820</endpoint>
             <peer_dns>10.10.10.1</peer_dns>
