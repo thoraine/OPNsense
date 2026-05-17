@@ -1144,12 +1144,12 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.209</username>
-    <description>/api/wireguard/client/del_client/6756f274-e5f7-4251-8581-5451015e9deb made changes</description>
-    <time>1778993524.51</time>
+    <description>/api/wireguard/client/del_client/3404aa6d-92af-4df6-8100-b6bcf71d57b1 made changes</description>
+    <time>1778993529.15</time>
   </revision>
   <OPNsense>
     <wireguard>
-      <client version="1.0.0" persisted_at="1778993524.51" description="WireGuard peer configuration">
+      <client version="1.0.0" persisted_at="1778993529.15" description="WireGuard peer configuration">
         <clients>
           <client uuid="bbbd4860-3761-4997-aa52-90fe1c325858">
             <enabled>1</enabled>
@@ -1160,16 +1160,6 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
             <serveraddress/>
             <serverport/>
             <keepalive>25</keepalive>
-          </client>
-          <client uuid="3404aa6d-92af-4df6-8100-b6bcf71d57b1">
-            <enabled>1</enabled>
-            <name>Thoraine-Laptop</name>
-            <pubkey>GY5A8au/iHaaMA7BKL5LMAwXw5vXnmRL+6k2e4Ta/1E=</pubkey>
-            <psk/>
-            <tunneladdress>10.10.10.3/32</tunneladdress>
-            <serveraddress/>
-            <serverport/>
-            <keepalive/>
           </client>
           <client uuid="209f420d-6288-4b8f-b36b-dfa4d0d4e2c0">
             <enabled>1</enabled>
@@ -1196,7 +1186,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <general version="0.0.1" persisted_at="1769565413.69" description="WireGuard configuration">
         <enabled>1</enabled>
       </general>
-      <server version="1.0.1" persisted_at="1778993524.50" description="WireGuard instance configuration">
+      <server version="1.0.1" persisted_at="1778993529.15" description="WireGuard instance configuration">
         <servers>
           <server uuid="48097eef-aed3-4ea8-8ee5-9fbe38a96896">
             <enabled>1</enabled>
@@ -1211,7 +1201,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
             <disableroutes>0</disableroutes>
             <gateway/>
             <carp_depend_on/>
-            <peers>3404aa6d-92af-4df6-8100-b6bcf71d57b1,bbbd4860-3761-4997-aa52-90fe1c325858,209f420d-6288-4b8f-b36b-dfa4d0d4e2c0</peers>
+            <peers>bbbd4860-3761-4997-aa52-90fe1c325858,209f420d-6288-4b8f-b36b-dfa4d0d4e2c0</peers>
             <debug>0</debug>
             <endpoint>103.26.223.168:51820</endpoint>
             <peer_dns>10.10.10.1</peer_dns>
