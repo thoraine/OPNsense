@@ -1143,13 +1143,13 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@10.10.10.2</username>
-    <description>/api/wireguard/client/add_client_builder made changes</description>
-    <time>1778920845.67</time>
+    <username>root@192.168.1.209</username>
+    <description>/api/wireguard/client/del_client/6756f274-e5f7-4251-8581-5451015e9deb made changes</description>
+    <time>1778993524.51</time>
   </revision>
   <OPNsense>
     <wireguard>
-      <client version="1.0.0" persisted_at="1778920845.67" description="WireGuard peer configuration">
+      <client version="1.0.0" persisted_at="1778993524.51" description="WireGuard peer configuration">
         <clients>
           <client uuid="bbbd4860-3761-4997-aa52-90fe1c325858">
             <enabled>1</enabled>
@@ -1191,22 +1191,12 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
             <serverport>2408</serverport>
             <keepalive>25</keepalive>
           </client>
-          <client uuid="6756f274-e5f7-4251-8581-5451015e9deb">
-            <enabled>1</enabled>
-            <name>Xiaomi</name>
-            <pubkey>Oe4QKP8/NJI8lCJN9EWxcw8vL/zcA/zTVhVvi9K4f20=</pubkey>
-            <psk/>
-            <tunneladdress>10.10.10.5/32</tunneladdress>
-            <serveraddress/>
-            <serverport/>
-            <keepalive/>
-          </client>
         </clients>
       </client>
       <general version="0.0.1" persisted_at="1769565413.69" description="WireGuard configuration">
         <enabled>1</enabled>
       </general>
-      <server version="1.0.1" persisted_at="1778920845.67" description="WireGuard instance configuration">
+      <server version="1.0.1" persisted_at="1778993524.50" description="WireGuard instance configuration">
         <servers>
           <server uuid="48097eef-aed3-4ea8-8ee5-9fbe38a96896">
             <enabled>1</enabled>
@@ -1221,7 +1211,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
             <disableroutes>0</disableroutes>
             <gateway/>
             <carp_depend_on/>
-            <peers>3404aa6d-92af-4df6-8100-b6bcf71d57b1,bbbd4860-3761-4997-aa52-90fe1c325858,209f420d-6288-4b8f-b36b-dfa4d0d4e2c0,6756f274-e5f7-4251-8581-5451015e9deb</peers>
+            <peers>3404aa6d-92af-4df6-8100-b6bcf71d57b1,bbbd4860-3761-4997-aa52-90fe1c325858,209f420d-6288-4b8f-b36b-dfa4d0d4e2c0</peers>
             <debug>0</debug>
             <endpoint>103.26.223.168:51820</endpoint>
             <peer_dns>10.10.10.1</peer_dns>
