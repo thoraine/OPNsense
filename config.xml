@@ -1143,9 +1143,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.209</username>
-    <description>/api/firewall/filter/toggle_rule/ec3fdad5-78a3-4c3c-912c-c736e76e413d made changes</description>
-    <time>1778994835.75</time>
+    <username>(root)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1779408720.69</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2436,14 +2436,25 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <reservations/>
         <ha_peers/>
       </dhcp4>
-      <dhcp6 version="1.0.0" persisted_at="1757422061.18">
+      <dhcp6 version="1.0.1" persisted_at="1779408720.64" description="Kea DHCPv6 configuration">
         <general>
           <enabled>0</enabled>
           <manual_config>0</manual_config>
           <interfaces/>
+          <service_sockets_max_retries/>
+          <service_sockets_retry_wait_time/>
           <valid_lifetime>4000</valid_lifetime>
+          <mac_sources>ipv6-link-local</mac_sources>
           <fwrules>1</fwrules>
         </general>
+        <lexpire>
+          <hold_reclaimed_time/>
+          <reclaim_timer_wait_time/>
+          <flush_reclaimed_timer_wait_time/>
+          <max_reclaim_time/>
+          <max_reclaim_leases/>
+          <unwarned_reclaim_cycles/>
+        </lexpire>
         <ha>
           <enabled>0</enabled>
           <this_server_name/>
@@ -2451,6 +2462,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         </ha>
         <subnets/>
         <reservations/>
+        <options/>
         <pd_pools/>
         <ha_peers/>
       </dhcp6>
