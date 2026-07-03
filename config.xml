@@ -1145,7 +1145,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1783050605.95</time>
+    <time>1783068169.31</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3191,6 +3191,13 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <crowdsec_firewall_verbose>0</crowdsec_firewall_verbose>
       </general>
     </crowdsec>
+    <QemuGuestAgent version="1.0.0" persisted_at="1783068169.31" description="QEMU Guest Agent for OPNsense">
+      <general>
+        <Enabled>1</Enabled>
+        <LogDebug>0</LogDebug>
+        <DisabledRPCs/>
+      </general>
+    </QemuGuestAgent>
   </OPNsense>
   <hasync version="1.0.2" persisted_at="1757422060.87">
     <disablepreempt>0</disablepreempt>
