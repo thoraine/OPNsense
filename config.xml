@@ -1144,8 +1144,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>(root)</username>
-    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1783050593.94</time>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1783050605.95</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1594,7 +1594,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <Category version="1.0.0" persisted_at="1757422061.01">
         <categories/>
       </Category>
-      <Filter version="1.0.4" persisted_at="1778994835.75" description="Firewall rules (new)">
+      <Filter version="1.0.5" persisted_at="1783050605.74" description="Firewall rules (new)">
+        <general/>
         <rules>
           <rule uuid="28e52c15-a8ea-41f2-b1e0-53a28eb8d9d2">
             <enabled>1</enabled>
@@ -2418,25 +2419,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.4" persisted_at="1757422061.18">
-        <general>
-          <enabled>0</enabled>
-          <manual_config>0</manual_config>
-          <interfaces/>
-          <valid_lifetime>4000</valid_lifetime>
-          <fwrules>1</fwrules>
-          <dhcp_socket_type>raw</dhcp_socket_type>
-        </general>
-        <ha>
-          <enabled>0</enabled>
-          <this_server_name/>
-          <max_unacked_clients>2</max_unacked_clients>
-        </ha>
-        <subnets/>
-        <reservations/>
-        <ha_peers/>
-      </dhcp4>
-      <dhcp6 version="1.0.1" persisted_at="1779408720.64" description="Kea DHCPv6 configuration">
+      <dhcp4 version="1.0.5" persisted_at="1783050605.91" description="Kea DHCPv4 configuration">
         <general>
           <enabled>0</enabled>
           <manual_config>0</manual_config>
@@ -2444,6 +2427,38 @@ ae0482c1428a7be801fa0e4ba7c8569c
           <service_sockets_max_retries/>
           <service_sockets_retry_wait_time/>
           <valid_lifetime>4000</valid_lifetime>
+          <decline_probation_period/>
+          <fwrules>1</fwrules>
+          <dhcp_socket_type>raw</dhcp_socket_type>
+          <compatibility/>
+        </general>
+        <lexpire>
+          <hold_reclaimed_time/>
+          <reclaim_timer_wait_time/>
+          <flush_reclaimed_timer_wait_time/>
+          <max_reclaim_time/>
+          <max_reclaim_leases/>
+          <unwarned_reclaim_cycles/>
+        </lexpire>
+        <ha>
+          <enabled>0</enabled>
+          <this_server_name/>
+          <max_unacked_clients>2</max_unacked_clients>
+        </ha>
+        <subnets/>
+        <reservations/>
+        <options/>
+        <ha_peers/>
+      </dhcp4>
+      <dhcp6 version="1.0.2" persisted_at="1783050605.88" description="Kea DHCPv6 configuration">
+        <general>
+          <enabled>0</enabled>
+          <manual_config>0</manual_config>
+          <interfaces/>
+          <service_sockets_max_retries/>
+          <service_sockets_retry_wait_time/>
+          <valid_lifetime>4000</valid_lifetime>
+          <decline_probation_period/>
           <mac_sources>ipv6-link-local</mac_sources>
           <fwrules>1</fwrules>
         </general>
@@ -3216,9 +3231,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <vlanif>vtnet0_vlan69</vlanif>
     </vlan>
   </vlans>
-  <staticroutes version="1.0.0" persisted_at="1757422061.19">
-    <route/>
-  </staticroutes>
+  <staticroutes version="1.0.1" persisted_at="1783050605.57" description="Static routes"/>
   <ppps>
     <ppp/>
   </ppps>
