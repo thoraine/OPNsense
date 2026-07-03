@@ -1145,7 +1145,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1783050588.97</time>
+    <time>1783050589.09</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2920,7 +2920,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       </hosts>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1783050588.97" description="OPNsense Zenarmor Application">
+    <Zenarmor version="0.0.0" persisted_at="1783050589.08" description="OPNsense Zenarmor Application">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
@@ -2942,16 +2942,16 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <globalCtiPort>2096</globalCtiPort>
       </cti>
       <general>
-        <installTimestamp>1777277447</installTimestamp>
-        <heartbeatTimer>23 1,9,18 * * *</heartbeatTimer>
+        <installTimestamp>1783050589</installTimestamp>
+        <heartbeatTimer>45 1,9,18 * * *</heartbeatTimer>
         <coreFileEnable>false</coreFileEnable>
         <showWanIface>false</showWanIface>
         <flavor>100</flavor>
         <healthCheck>true</healthCheck>
         <healthShare>true</healthShare>
-        <healthTimer>9,19,29,39,49,59 * * * *</healthTimer>
-        <updateTimer>46 * * * *</updateTimer>
-        <licenseCheckTimer>47 0,3,7,18,21 * * *</licenseCheckTimer>
+        <healthTimer>3,13,23,33,43,53 * * * *</healthTimer>
+        <updateTimer>40 * * * *</updateTimer>
+        <licenseCheckTimer>55 2,7,14,17,21 * * *</licenseCheckTimer>
         <heartbeatMonit>true</heartbeatMonit>
         <heartbeatData>true</heartbeatData>
         <hwbypass>false</hwbypass>
