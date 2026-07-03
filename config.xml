@@ -109,7 +109,7 @@
     <firmware version="1.0.1" persisted_at="1757422060.85">
       <mirror/>
       <flavour/>
-      <plugins>os-crowdsec,os-git-backup,os-isc-dhcp,os-sensei,os-sensei-updater,os-sunnyvalley</plugins>
+      <plugins>os-crowdsec,os-git-backup,os-isc-dhcp,os-qemu-guest-agent,os-sensei,os-sensei-updater,os-sunnyvalley</plugins>
       <type/>
       <subscription/>
       <reboot>0</reboot>
@@ -1144,8 +1144,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>(root)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1783068169.31</time>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1783068169.58</time>
   </revision>
   <OPNsense>
     <wireguard>
