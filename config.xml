@@ -706,11 +706,11 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     </rule>
     <rule uuid="210e9e45-7fd0-454b-952b-7bc39c6d7d61">
       <sequence>200</sequence>
-      <disabled>1</disabled>
+      <disabled>0</disabled>
       <nordr>0</nordr>
       <interface>wan</interface>
       <ipprotocol>inet</ipprotocol>
-      <protocol>tcp</protocol>
+      <protocol>tcp/udp</protocol>
       <source>
         <network/>
         <port/>
@@ -718,20 +718,20 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       </source>
       <destination>
         <network>wanip</network>
-        <port>80</port>
+        <port>8211</port>
         <not>0</not>
       </destination>
-      <target>192.168.1.7</target>
-      <local-port>80</local-port>
+      <target>192.168.1.6</target>
+      <local-port>8211</local-port>
       <poolopts/>
       <log>0</log>
       <category/>
-      <descr>forward http traffic to aiostreams</descr>
+      <descr>forward palworld traffic</descr>
       <tag/>
       <tagged/>
       <nosync>0</nosync>
       <natreflection>purenat</natreflection>
-      <pass/>
+      <pass>rule</pass>
       <associated-rule-id/>
       <created>
         <username>root</username>
@@ -740,7 +740,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       </created>
       <updated>
         <username>root</username>
-        <time>1771246454.47</time>
+        <time>1784902442.79</time>
         <description>/api/api.php made changes</description>
       </updated>
     </rule>
@@ -1114,8 +1114,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/firewall/d_nat/del_rule/91ea6d36-6403-490c-8f14-bf9285de1c23 made changes</description>
-    <time>1784902395.04</time>
+    <description>/api/firewall/d_nat/set_rule/210e9e45-7fd0-454b-952b-7bc39c6d7d61 made changes</description>
+    <time>1784902442.80</time>
   </revision>
   <OPNsense>
     <wireguard>
