@@ -824,6 +824,46 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <description>/api/api.php made changes</description>
       </updated>
     </rule>
+    <rule uuid="91ea6d36-6403-490c-8f14-bf9285de1c23">
+      <sequence>200</sequence>
+      <disabled>1</disabled>
+      <nordr>0</nordr>
+      <interface>wan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <protocol>tcp/udp</protocol>
+      <source>
+        <network/>
+        <port/>
+        <not>0</not>
+      </source>
+      <destination>
+        <network>wanip</network>
+        <port>8211</port>
+        <not>0</not>
+      </destination>
+      <target>192.168.1.6</target>
+      <local-port>8211</local-port>
+      <poolopts/>
+      <log>0</log>
+      <category/>
+      <descr>forward to palworld</descr>
+      <tag/>
+      <tagged/>
+      <nosync>0</nosync>
+      <natreflection>purenat</natreflection>
+      <pass>rule</pass>
+      <associated-rule-id/>
+      <created>
+        <username>root</username>
+        <time>1784902317.74</time>
+        <description>/api/api.php made changes</description>
+      </created>
+      <updated>
+        <username>root</username>
+        <time>1784902317.74</time>
+        <description>/api/api.php made changes</description>
+      </updated>
+    </rule>
   </nat>
   <filter>
     <rule uuid="28e52c15-a8ea-41f2-b1e0-53a28eb8d9d2">
@@ -1114,8 +1154,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.67</username>
-    <description>/api/firewall/d_nat/del_rule/3604a82c-ad2d-45f3-97e5-98f0b64c76ee made changes</description>
-    <time>1784902241.00</time>
+    <description>/api/firewall/d_nat/add_rule/ made changes</description>
+    <time>1784902317.74</time>
   </revision>
   <OPNsense>
     <wireguard>
