@@ -1112,8 +1112,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>(root)</username>
-    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1789926334.02</time>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1789926572.77</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1562,7 +1562,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <Category version="1.0.0" persisted_at="1757422061.01">
         <categories/>
       </Category>
-      <Filter version="1.0.5" persisted_at="1783050605.74" description="Firewall rules (new)">
+      <Filter version="1.0.6" persisted_at="1789926572.52" description="Firewall rules (new)">
         <general/>
         <rules>
           <rule uuid="28e52c15-a8ea-41f2-b1e0-53a28eb8d9d2">
@@ -1574,6 +1574,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <quick>1</quick>
             <interfacenot>0</interfacenot>
             <interface>wan</interface>
+            <received-on-not>0</received-on-not>
+            <received-on/>
             <direction>in</direction>
             <ipprotocol>inet</ipprotocol>
             <protocol>UDP</protocol>
@@ -1603,6 +1605,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <max/>
             <max-src-conn-rate/>
             <max-src-conn-rates/>
+            <max-pkt-rate-number/>
+            <max-pkt-rate-seconds/>
             <overload/>
             <adaptivestart/>
             <adaptiveend/>
@@ -1620,6 +1624,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <shaper1/>
             <shaper2/>
             <description>Allow WireGuard in</description>
+            <audit/>
           </rule>
           <rule uuid="666fe05d-fcd6-4a00-be0c-1d0df9515ff8">
             <enabled>1</enabled>
@@ -1630,6 +1635,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <quick>1</quick>
             <interfacenot>0</interfacenot>
             <interface>lan</interface>
+            <received-on-not>0</received-on-not>
+            <received-on/>
             <direction>in</direction>
             <ipprotocol>inet6</ipprotocol>
             <protocol>any</protocol>
@@ -1659,6 +1666,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <max/>
             <max-src-conn-rate/>
             <max-src-conn-rates/>
+            <max-pkt-rate-number/>
+            <max-pkt-rate-seconds/>
             <overload/>
             <adaptivestart/>
             <adaptiveend/>
@@ -1676,6 +1685,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <shaper1/>
             <shaper2/>
             <description>Default allow LAN IPv6 to any rule</description>
+            <audit/>
           </rule>
           <rule uuid="e0ff14f6-df63-4b2e-965a-fa00a9c73a42">
             <enabled>1</enabled>
@@ -1686,6 +1696,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <quick>1</quick>
             <interfacenot>0</interfacenot>
             <interface>lan</interface>
+            <received-on-not>0</received-on-not>
+            <received-on/>
             <direction>in</direction>
             <ipprotocol>inet</ipprotocol>
             <protocol>any</protocol>
@@ -1715,6 +1727,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <max/>
             <max-src-conn-rate/>
             <max-src-conn-rates/>
+            <max-pkt-rate-number/>
+            <max-pkt-rate-seconds/>
             <overload/>
             <adaptivestart/>
             <adaptiveend/>
@@ -1732,6 +1746,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <shaper1/>
             <shaper2/>
             <description>Default allow LAN to any rule</description>
+            <audit/>
           </rule>
           <rule uuid="a8892800-ca3f-4b2f-9a54-186d6e90edbb">
             <enabled>1</enabled>
@@ -1742,6 +1757,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <quick>1</quick>
             <interfacenot>0</interfacenot>
             <interface>opt1</interface>
+            <received-on-not>0</received-on-not>
+            <received-on/>
             <direction>in</direction>
             <ipprotocol>inet</ipprotocol>
             <protocol>any</protocol>
@@ -1771,6 +1788,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <max/>
             <max-src-conn-rate/>
             <max-src-conn-rates/>
+            <max-pkt-rate-number/>
+            <max-pkt-rate-seconds/>
             <overload/>
             <adaptivestart/>
             <adaptiveend/>
@@ -1788,6 +1807,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <shaper1/>
             <shaper2/>
             <description>Block IoT to LAN</description>
+            <audit/>
           </rule>
           <rule uuid="b95ccb47-9439-48ca-b205-e83ae399c0a4">
             <enabled>1</enabled>
@@ -1798,6 +1818,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <quick>1</quick>
             <interfacenot>0</interfacenot>
             <interface>opt1</interface>
+            <received-on-not>0</received-on-not>
+            <received-on/>
             <direction>in</direction>
             <ipprotocol>inet</ipprotocol>
             <protocol>any</protocol>
@@ -1827,6 +1849,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <max/>
             <max-src-conn-rate/>
             <max-src-conn-rates/>
+            <max-pkt-rate-number/>
+            <max-pkt-rate-seconds/>
             <overload/>
             <adaptivestart/>
             <adaptiveend/>
@@ -1844,6 +1868,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <shaper1/>
             <shaper2/>
             <description>Allow IoT to Internet</description>
+            <audit/>
           </rule>
           <rule uuid="3e98fbc8-845c-47e7-844e-c08df0432f4c">
             <enabled>1</enabled>
@@ -1854,6 +1879,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <quick>1</quick>
             <interfacenot>0</interfacenot>
             <interface>wireguard</interface>
+            <received-on-not>0</received-on-not>
+            <received-on/>
             <direction>in</direction>
             <ipprotocol>inet</ipprotocol>
             <protocol>any</protocol>
@@ -1883,6 +1910,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <max/>
             <max-src-conn-rate/>
             <max-src-conn-rates/>
+            <max-pkt-rate-number/>
+            <max-pkt-rate-seconds/>
             <overload/>
             <adaptivestart/>
             <adaptiveend/>
@@ -1900,6 +1929,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <shaper1/>
             <shaper2/>
             <description/>
+            <audit/>
           </rule>
           <rule uuid="514206de-5a6a-4204-a603-02ad0e7773f5">
             <enabled>1</enabled>
@@ -1910,6 +1940,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <quick>1</quick>
             <interfacenot>0</interfacenot>
             <interface>opt1,lan</interface>
+            <received-on-not>0</received-on-not>
+            <received-on/>
             <direction>in</direction>
             <ipprotocol>inet</ipprotocol>
             <protocol>any</protocol>
@@ -1939,6 +1971,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <max/>
             <max-src-conn-rate/>
             <max-src-conn-rates/>
+            <max-pkt-rate-number/>
+            <max-pkt-rate-seconds/>
             <overload/>
             <adaptivestart/>
             <adaptiveend/>
@@ -1956,6 +1990,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <shaper1/>
             <shaper2/>
             <description>Block Accessing CrowdSec Blacklist</description>
+            <audit/>
           </rule>
           <rule uuid="6ccc4caa-6f98-413b-8296-d4793efc7685">
             <enabled>0</enabled>
@@ -1966,6 +2001,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <quick>1</quick>
             <interfacenot>0</interfacenot>
             <interface>wan</interface>
+            <received-on-not>0</received-on-not>
+            <received-on/>
             <direction>in</direction>
             <ipprotocol>inet</ipprotocol>
             <protocol>TCP</protocol>
@@ -1995,6 +2032,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <max/>
             <max-src-conn-rate/>
             <max-src-conn-rates/>
+            <max-pkt-rate-number/>
+            <max-pkt-rate-seconds/>
             <overload/>
             <adaptivestart/>
             <adaptiveend/>
@@ -2012,6 +2051,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <shaper1/>
             <shaper2/>
             <description>Allow HTTPS in</description>
+            <audit/>
           </rule>
           <rule uuid="186507dc-c94b-4c99-bffd-b889a53c0dad">
             <enabled>0</enabled>
@@ -2022,6 +2062,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <quick>1</quick>
             <interfacenot>0</interfacenot>
             <interface>wan</interface>
+            <received-on-not>0</received-on-not>
+            <received-on/>
             <direction>in</direction>
             <ipprotocol>inet</ipprotocol>
             <protocol>TCP</protocol>
@@ -2051,6 +2093,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <max/>
             <max-src-conn-rate/>
             <max-src-conn-rates/>
+            <max-pkt-rate-number/>
+            <max-pkt-rate-seconds/>
             <overload/>
             <adaptivestart/>
             <adaptiveend/>
@@ -2068,6 +2112,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <shaper1/>
             <shaper2/>
             <description>Allow HTTP in</description>
+            <audit/>
           </rule>
           <rule uuid="8799c1b6-b024-4f71-b038-b733ff20a8ef">
             <enabled>0</enabled>
@@ -2078,6 +2123,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <quick>1</quick>
             <interfacenot>0</interfacenot>
             <interface>wan</interface>
+            <received-on-not>0</received-on-not>
+            <received-on/>
             <direction>in</direction>
             <ipprotocol>inet</ipprotocol>
             <protocol>TCP/UDP</protocol>
@@ -2107,6 +2154,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <max/>
             <max-src-conn-rate/>
             <max-src-conn-rates/>
+            <max-pkt-rate-number/>
+            <max-pkt-rate-seconds/>
             <overload/>
             <adaptivestart/>
             <adaptiveend/>
@@ -2124,6 +2173,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <shaper1/>
             <shaper2/>
             <description>Allow Parsec in</description>
+            <audit/>
           </rule>
           <rule uuid="ec3fdad5-78a3-4c3c-912c-c736e76e413d">
             <enabled>0</enabled>
@@ -2134,6 +2184,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <quick>1</quick>
             <interfacenot>0</interfacenot>
             <interface>wan</interface>
+            <received-on-not>0</received-on-not>
+            <received-on/>
             <direction>in</direction>
             <ipprotocol>inet</ipprotocol>
             <protocol>TCP/UDP</protocol>
@@ -2163,6 +2215,8 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <max/>
             <max-src-conn-rate/>
             <max-src-conn-rates/>
+            <max-pkt-rate-number/>
+            <max-pkt-rate-seconds/>
             <overload/>
             <adaptivestart/>
             <adaptiveend/>
@@ -2180,6 +2234,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
             <shaper1/>
             <shaper2/>
             <description>Allow Parsec in</description>
+            <audit/>
           </rule>
         </rules>
         <snatrules/>
@@ -2387,7 +2442,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.5" persisted_at="1783050605.91" description="Kea DHCPv4 configuration">
+      <dhcp4 version="1.0.6" persisted_at="1789926572.72" description="Kea DHCPv4 configuration">
         <general>
           <enabled>0</enabled>
           <manual_config>0</manual_config>
@@ -2418,7 +2473,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <options/>
         <ha_peers/>
       </dhcp4>
-      <dhcp6 version="1.0.2" persisted_at="1783050605.88" description="Kea DHCPv6 configuration">
+      <dhcp6 version="1.0.3" persisted_at="1789926572.69" description="Kea DHCPv6 configuration">
         <general>
           <enabled>0</enabled>
           <manual_config>0</manual_config>
@@ -3213,9 +3268,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
   <ppps>
     <ppp/>
   </ppps>
-  <wireless>
-    <clone/>
-  </wireless>
+  <wireless version="1.0.0" persisted_at="1789926572.07" description="Wireless configuration"/>
   <dhcpd>
     <opt1>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
