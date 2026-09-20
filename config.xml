@@ -7,9 +7,9 @@
       <value>1024</value>
       <descr>Automatically added by Zenarmor</descr>
     </item>
-    <item uuid="37578abf-5a7d-4a43-ac7e-d2d7a4b0d9f2">
+    <item uuid="678f3879-5211-40ae-b248-5f5ecbdf09f3">
       <tunable>dev.netmap.buf_num</tunable>
-      <value>1000000</value>
+      <value>500000</value>
       <descr>Automatically added by Zenarmor</descr>
     </item>
   </sysctl>
@@ -1113,7 +1113,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1789926328.76</time>
+    <time>1789926329.73</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2903,7 +2903,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       </hosts>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1789926328.76" description="OPNsense Zenarmor Application">
+    <Zenarmor version="0.0.0" persisted_at="1789926329.73" description="OPNsense Zenarmor Application">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
