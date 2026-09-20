@@ -1107,16 +1107,13 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       </rule>
     </scrub>
   </filter>
-  <rrd>
-    <enable/>
-  </rrd>
   <ntpd>
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.67</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1789925709.09</time>
+    <username>(root)</username>
+    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
+    <time>1789926322.25</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1379,7 +1376,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <zones/>
       <templates/>
     </captiveportal>
-    <cron version="1.0.4" persisted_at="1784806351.90" description="Cron settings">
+    <cron version="1.0.4" persisted_at="1789926322.25" description="Cron settings">
       <jobs>
         <job uuid="6a7c604d-ef57-48ac-bfa6-ba3cdc55f746">
           <origin>IDS</origin>
@@ -1406,19 +1403,6 @@ ae0482c1428a7be801fa0e4ba7c8569c
           <command>unbound dnsbl</command>
           <parameters/>
           <description>Update Unbound BLs</description>
-        </job>
-        <job uuid="d6718ca0-ebc5-44a7-b1b2-9d2686eecedf">
-          <origin>Zenarmor</origin>
-          <enabled>1</enabled>
-          <minutes>*</minutes>
-          <hours>*</hours>
-          <days>*</days>
-          <months>*</months>
-          <weekdays>*</weekdays>
-          <who>root</who>
-          <command>zenarmor periodicals</command>
-          <parameters/>
-          <description>Zenarmor periodicals</description>
         </job>
       </jobs>
     </cron>
@@ -2660,7 +2644,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <rules/>
     </TrafficShaper>
     <trust>
-      <general version="1.0.1" persisted_at="1757422061.32">
+      <general version="1.0.2" persisted_at="1789926245.58" description="Trust general settings">
         <store_intermediate_certs>0</store_intermediate_certs>
         <install_crls>0</install_crls>
         <fetch_crls>0</fetch_crls>
@@ -3169,6 +3153,9 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <DisabledRPCs/>
       </general>
     </QemuGuestAgent>
+    <SystemHealth version="1.0.0" persisted_at="1789926245.35" description="RRD graphing backend configuration">
+      <enabled>1</enabled>
+    </SystemHealth>
   </OPNsense>
   <hasync version="1.0.2" persisted_at="1757422060.87">
     <disablepreempt>0</disablepreempt>
