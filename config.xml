@@ -235,7 +235,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <networks/>
     </wireguard>
   </interfaces>
-  <dnsmasq version="1.0.9" persisted_at="1784807666.37" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.9" persisted_at="1790064852.10" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -246,6 +246,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <no_resolv>0</no_resolv>
     <log_queries>0</log_queries>
     <no_hosts>0</no_hosts>
+    <expand_hosts>0</expand_hosts>
     <strictbind>0</strictbind>
     <dnssec>0</dnssec>
     <regdhcpdomain/>
@@ -401,6 +402,21 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <cnames/>
       <client_id>ff:11:d2:22:c0:00:01:00:01:31:81:91:f0:bc:24:11:d2:22:c0</client_id>
       <hwaddr>bc:24:11:d2:22:c0</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="01c3d38a-3047-4057-b8e0-61063f1b0bea">
+      <host>weidian</host>
+      <domain>chewynetwork.home.arpa</domain>
+      <local>1</local>
+      <ip>192.168.1.6</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>bc:24:11:c9:2c:58</hwaddr>
       <lease_time/>
       <ignore>0</ignore>
       <set_tag/>
@@ -1111,9 +1127,9 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(root)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1789926572.77</time>
+    <username>root@192.168.1.209</username>
+    <description>/api/dnsmasq/settings/add_host/ made changes</description>
+    <time>1790064852.10</time>
   </revision>
   <OPNsense>
     <wireguard>
