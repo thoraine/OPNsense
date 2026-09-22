@@ -235,7 +235,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <networks/>
     </wireguard>
   </interfaces>
-  <dnsmasq version="1.0.9" persisted_at="1790074970.72" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.9" persisted_at="1790074976.39" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -381,7 +381,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
     </hosts>
     <hosts uuid="2d047cd4-16c9-40dc-9aaf-e93ba1703a8a">
       <host>printer</host>
-      <domain>chewynetwork.home.arpa</domain>
+      <domain/>
       <local>1</local>
       <ip>192.168.1.100</ip>
       <cnames/>
@@ -1128,8 +1128,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.209</username>
-    <description>/api/dnsmasq/settings/set_host/dfa41d7e-e028-440c-a84c-76e30093e7e6 made changes</description>
-    <time>1790074970.72</time>
+    <description>/api/dnsmasq/settings/set_host/2d047cd4-16c9-40dc-9aaf-e93ba1703a8a made changes</description>
+    <time>1790074976.39</time>
   </revision>
   <OPNsense>
     <wireguard>
