@@ -1128,8 +1128,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.209</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1790074989.66</time>
+    <description>/api/unbound/settings/set_host_override/4429449a-a404-4c38-ace8-2922959b34fc made changes</description>
+    <time>1790075406.41</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2742,7 +2742,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.15" persisted_at="1777277457.31" description="Unbound configuration">
+    <unboundplus version="1.0.15" persisted_at="1790075406.41" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -2973,7 +2973,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
         </host>
         <host uuid="4429449a-a404-4c38-ace8-2922959b34fc">
           <enabled>1</enabled>
-          <hostname>zapret</hostname>
+          <hostname>weidian</hostname>
           <domain>chewynetwork.home.arpa</domain>
           <rr>A</rr>
           <mxprio/>
