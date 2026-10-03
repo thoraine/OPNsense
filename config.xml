@@ -235,7 +235,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <networks/>
     </wireguard>
   </interfaces>
-  <dnsmasq version="1.0.9" persisted_at="1790074989.66" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.9" persisted_at="1791056702.78" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -417,6 +417,21 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
       <cnames/>
       <client_id/>
       <hwaddr>bc:24:11:c9:2c:58</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="45811291-1844-44b2-8e1d-06718d46a663">
+      <host>hermes</host>
+      <domain/>
+      <local>0</local>
+      <ip>192.168.1.7</ip>
+      <cnames/>
+      <client_id>ff:11:a2:ce:65:00:01:00:01:32:54:17:95:bc:24:11:a2:ce:65</client_id>
+      <hwaddr>bc:24:11:a2:ce:65</hwaddr>
       <lease_time/>
       <ignore>0</ignore>
       <set_tag/>
@@ -1128,8 +1143,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.209</username>
-    <description>/api/unbound/settings/set_host_override/4429449a-a404-4c38-ace8-2922959b34fc made changes</description>
-    <time>1790075406.41</time>
+    <description>/api/dnsmasq/settings/add_host/ made changes</description>
+    <time>1791056702.78</time>
   </revision>
   <OPNsense>
     <wireguard>
