@@ -1144,7 +1144,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1793301189.68</time>
+    <time>1793301191.62</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2989,7 +2989,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       </hosts>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1789926333.58" description="OPNsense Zenarmor Application">
+    <Zenarmor version="0.0.0" persisted_at="1793301191.62" description="OPNsense Zenarmor Application">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
@@ -3001,6 +3001,9 @@ ae0482c1428a7be801fa0e4ba7c8569c
       <sso>
         <enabled>false</enabled>
         <exemptDeviceCategories/>
+        <exemptIfaceTags/>
+        <exemptVlanIds/>
+        <exemptInternalTraffic>false</exemptInternalTraffic>
         <redirectBaseUrl/>
         <sessionExpireTimeout>86400</sessionExpireTimeout>
         <sessionInactivityTimeout>28800</sessionInactivityTimeout>
@@ -3157,6 +3160,19 @@ ae0482c1428a7be801fa0e4ba7c8569c
         <indexes/>
         <modes>bigquery</modes>
       </streamer>
+      <centralReporting>
+        <enabled>false</enabled>
+        <method/>
+      </centralReporting>
+      <ingest>
+        <ipdrEnabled>false</ipdrEnabled>
+        <siemEnabled>false</siemEnabled>
+        <ipdrIndexes/>
+        <auditLogEnabled>false</auditLogEnabled>
+        <deviceEnabled>false</deviceEnabled>
+        <notificationEnabled>false</notificationEnabled>
+        <baseUrl>https://ingest-flow.devel.zenarmor.net/event</baseUrl>
+      </ingest>
       <intrusiondetection>
         <enabled>true</enabled>
       </intrusiondetection>
