@@ -12,6 +12,16 @@
       <value>500000</value>
       <descr>Automatically added by Zenarmor</descr>
     </item>
+    <item uuid="84a96966-4f86-465a-96ea-c4cfb861b042">
+      <tunable>dev.netmap.if_num</tunable>
+      <value>512</value>
+      <descr>Automatically added by Zenarmor</descr>
+    </item>
+    <item uuid="4557eb44-3555-4c0e-a87b-c3a788f31d03">
+      <tunable>dev.netmap.ring_size</tunable>
+      <value>131072</value>
+      <descr>Automatically added by Zenarmor</descr>
+    </item>
   </sysctl>
   <system>
     <optimization>normal</optimization>
@@ -1144,7 +1154,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1793301196.22</time>
+    <time>1793301197.49</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2989,7 +2999,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
       </hosts>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1793301196.22" description="OPNsense Zenarmor Application">
+    <Zenarmor version="0.0.0" persisted_at="1793301197.49" description="OPNsense Zenarmor Application">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
