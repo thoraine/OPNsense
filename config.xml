@@ -1154,7 +1154,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1793301207.02</time>
+    <time>1793399897.87</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1218,7 +1218,7 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         </servers>
       </server>
     </wireguard>
-    <IPsec version="1.0.5" persisted_at="1757512727.41">
+    <IPsec version="1.0.6" persisted_at="1793399897.37" description="IPsec settings">
       <general>
         <enabled/>
         <preferred_oldsa>0</preferred_oldsa>
@@ -1242,6 +1242,8 @@ L+1+O5e4gjkGz332SvzVAAAAEnRob3JhaW5lQGdtYWlsLmNvbQECAw==&#13;
         <retransmit_base/>
         <retransmit_jitter/>
         <retransmit_limit/>
+        <reqid_base/>
+        <retry_initiate_interval>30</retry_initiate_interval>
         <syslog>
           <daemon>
             <ike_name>1</ike_name>
@@ -1462,7 +1464,7 @@ ae0482c1428a7be801fa0e4ba7c8569c
     </cron>
     <DHCRelay version="1.0.1" persisted_at="1757422060.90"/>
     <Firewall>
-      <Lvtemplate version="0.0.1" persisted_at="1771217988.99" description="Firewall Live View filter templates">
+      <Lvtemplate version="1.0.0" persisted_at="1793399896.92" description="Firewall Live View filter templates">
         <templates/>
       </Lvtemplate>
       <Alias version="1.0.1" persisted_at="1770541101.29" description="Firewall aliases">
